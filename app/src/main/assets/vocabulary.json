@@ -1,0 +1,3167 @@
+{
+  "version": 3,
+  "categories": [
+    {
+      "id": "numeros",
+      "title": "Números",
+      "icon": "number",
+      "words": [
+        {
+          "id": "numeros_001",
+          "yuhmu": "N’á",
+          "spanish": "Uno",
+          "context": "La cantidad de semillas que guardo es 1; en Yhụmụ digo «N’á»."
+        },
+        {
+          "id": "numeros_002",
+          "yuhmu": "Yóho",
+          "spanish": "Dos",
+          "context": "La cantidad de semillas que guardo es 2; en Yhụmụ digo «Yóho»."
+        },
+        {
+          "id": "numeros_003",
+          "yuhmu": "Hyǘ",
+          "spanish": "Tres",
+          "context": "La cantidad de semillas que guardo es 3; en Yhụmụ digo «Hyǘ»."
+        },
+        {
+          "id": "numeros_004",
+          "yuhmu": "Gǒho",
+          "spanish": "Cuatro",
+          "context": "La cantidad de semillas que guardo es 4; en Yhụmụ digo «Gǒho»."
+        },
+        {
+          "id": "numeros_005",
+          "yuhmu": "Kú̱t’a",
+          "spanish": "Cinco",
+          "context": "La cantidad de semillas que guardo es 5; en Yhụmụ digo «Kú̱t’a»."
+        },
+        {
+          "id": "numeros_006",
+          "yuhmu": "’Ráto",
+          "spanish": "Seis",
+          "context": "La cantidad de semillas que guardo es 6; en Yhụmụ digo «’Ráto»."
+        },
+        {
+          "id": "numeros_007",
+          "yuhmu": "Yòto",
+          "spanish": "Siete",
+          "context": "La cantidad de semillas que guardo es 7; en Yhụmụ digo «Yòto»."
+        },
+        {
+          "id": "numeros_008",
+          "yuhmu": "Hyä́to",
+          "spanish": "Ocho",
+          "context": "La cantidad de semillas que guardo es 8; en Yhụmụ digo «Hyä́to»."
+        },
+        {
+          "id": "numeros_009",
+          "yuhmu": "Gǔ̱to",
+          "spanish": "Nueve",
+          "context": "La cantidad de semillas que guardo es 9; en Yhụmụ digo «Gǔ̱to»."
+        },
+        {
+          "id": "numeros_010",
+          "yuhmu": "’Ré̱t’a",
+          "spanish": "Diez",
+          "context": "La cantidad de semillas que guardo es 10; en Yhụmụ digo «’Ré̱t’a»."
+        },
+        {
+          "id": "numeros_011",
+          "yuhmu": "’Ré̱t’a ma ’rá",
+          "spanish": "Once",
+          "context": "La cantidad de semillas que guardo es 11; en Yhụmụ digo «’Ré̱t’a ma ’rá».",
+          "note": "10 + ’rá"
+        },
+        {
+          "id": "numeros_012",
+          "yuhmu": "’Ré̱t’a ma yó",
+          "spanish": "Doce",
+          "context": "La cantidad de semillas que guardo es 12; en Yhụmụ digo «’Ré̱t’a ma yó».",
+          "note": "10 + yó"
+        },
+        {
+          "id": "numeros_013",
+          "yuhmu": "’Ré̱t’a ma hyǘ",
+          "spanish": "Trece",
+          "context": "La cantidad de semillas que guardo es 13; en Yhụmụ digo «’Ré̱t’a ma hyǘ».",
+          "note": "10 + 3"
+        },
+        {
+          "id": "numeros_014",
+          "yuhmu": "’Ré̱t’a ma gǒho",
+          "spanish": "Catorce",
+          "context": "La cantidad de semillas que guardo es 14; en Yhụmụ digo «’Ré̱t’a ma gǒho».",
+          "note": "10 + 4"
+        },
+        {
+          "id": "numeros_015",
+          "yuhmu": "’Ré̱t’a ma kú̱t’a",
+          "spanish": "Quince",
+          "context": "La cantidad de semillas que guardo es 15; en Yhụmụ digo «’Ré̱t’a ma kú̱t’a».",
+          "note": "10 + 5"
+        },
+        {
+          "id": "numeros_016",
+          "yuhmu": "’Ré̱t’a ma ’ráto",
+          "spanish": "Dieciséis",
+          "context": "La cantidad de semillas que guardo es 16; en Yhụmụ digo «’Ré̱t’a ma ’ráto».",
+          "note": "10 + 6"
+        },
+        {
+          "id": "numeros_017",
+          "yuhmu": "’Ré̱t’a ma yòto",
+          "spanish": "Diecisiete",
+          "context": "La cantidad de semillas que guardo es 17; en Yhụmụ digo «’Ré̱t’a ma yòto».",
+          "note": "10 + 7"
+        },
+        {
+          "id": "numeros_018",
+          "yuhmu": "’Ré̱t’a ma hyä́to",
+          "spanish": "Dieciocho",
+          "context": "La cantidad de semillas que guardo es 18; en Yhụmụ digo «’Ré̱t’a ma hyä́to».",
+          "note": "10 + 8"
+        },
+        {
+          "id": "numeros_019",
+          "yuhmu": "’Ré̱t’a ma gǔ̱to",
+          "spanish": "Diecinueve",
+          "context": "La cantidad de semillas que guardo es 19; en Yhụmụ digo «’Ré̱t’a ma gǔ̱to».",
+          "note": "10 + 9"
+        },
+        {
+          "id": "numeros_020",
+          "yuhmu": "’Róte",
+          "spanish": "Veinte",
+          "context": "La cantidad de semillas que guardo es 20; en Yhụmụ digo «’Róte».",
+          "note": "Base Vigesimal"
+        },
+        {
+          "id": "numeros_029",
+          "yuhmu": "’Róte ma ’rá",
+          "spanish": "Veintiuno",
+          "context": "La cantidad de semillas que guardo es 21; en Yhụmụ digo «’Róte ma ’rá».",
+          "note": "20 + ’rá"
+        },
+        {
+          "id": "numeros_030",
+          "yuhmu": "’Róte ma yó",
+          "spanish": "Veintidós",
+          "context": "La cantidad de semillas que guardo es 22; en Yhụmụ digo «’Róte ma yó».",
+          "note": "20 + yó"
+        },
+        {
+          "id": "numeros_031",
+          "yuhmu": "’Róte ma hyǘ",
+          "spanish": "Veintitrés",
+          "context": "La cantidad de semillas que guardo es 23; en Yhụmụ digo «’Róte ma hyǘ».",
+          "note": "20 + 3"
+        },
+        {
+          "id": "numeros_032",
+          "yuhmu": "’Róte ma gǒho",
+          "spanish": "Veinticuatro",
+          "context": "La cantidad de semillas que guardo es 24; en Yhụmụ digo «’Róte ma gǒho».",
+          "note": "20 + 4"
+        },
+        {
+          "id": "numeros_033",
+          "yuhmu": "’Róte ma kú̱t’a",
+          "spanish": "Veinticinco",
+          "context": "La cantidad de semillas que guardo es 25; en Yhụmụ digo «’Róte ma kú̱t’a».",
+          "note": "20 + 5"
+        },
+        {
+          "id": "numeros_034",
+          "yuhmu": "’Róte ma ’ráto",
+          "spanish": "Veintiséis",
+          "context": "La cantidad de semillas que guardo es 26; en Yhụmụ digo «’Róte ma ’ráto».",
+          "note": "20 + 6"
+        },
+        {
+          "id": "numeros_035",
+          "yuhmu": "’Róte ma yòto",
+          "spanish": "Veintisiete",
+          "context": "La cantidad de semillas que guardo es 27; en Yhụmụ digo «’Róte ma yòto».",
+          "note": "20 + 7"
+        },
+        {
+          "id": "numeros_036",
+          "yuhmu": "’Róte ma hyä́to",
+          "spanish": "Veintiocho",
+          "context": "La cantidad de semillas que guardo es 28; en Yhụmụ digo «’Róte ma hyä́to».",
+          "note": "20 + 8"
+        },
+        {
+          "id": "numeros_037",
+          "yuhmu": "’Róte ma gǔ̱to",
+          "spanish": "Veintinueve",
+          "context": "La cantidad de semillas que guardo es 29; en Yhụmụ digo «’Róte ma gǔ̱to».",
+          "note": "20 + 9"
+        },
+        {
+          "id": "numeros_021",
+          "yuhmu": "’Róte ma ’Ré̱t’a",
+          "spanish": "Treinta",
+          "context": "La cantidad de semillas que guardo es 30; en Yhụmụ digo «’Róte ma ’Ré̱t’a».",
+          "note": "20 + 10"
+        },
+        {
+          "id": "numeros_038",
+          "yuhmu": "’Róte ma ’ré̱t’a n’á",
+          "spanish": "Treinta y uno",
+          "context": "La cantidad de semillas que guardo es 31; en Yhụmụ digo «’Róte ma ’ré̱t’a n’á».",
+          "note": "20 + 10 + n’á"
+        },
+        {
+          "id": "numeros_039",
+          "yuhmu": "’Róte ma ’ré̱t’a yóho",
+          "spanish": "Treinta y dos",
+          "context": "La cantidad de semillas que guardo es 32; en Yhụmụ digo «’Róte ma ’ré̱t’a yóho».",
+          "note": "20 + 10 + yóho"
+        },
+        {
+          "id": "numeros_040",
+          "yuhmu": "’Róte ma ’ré̱t’a hyǘ",
+          "spanish": "Treinta y tres",
+          "context": "La cantidad de semillas que guardo es 33; en Yhụmụ digo «’Róte ma ’ré̱t’a hyǘ».",
+          "note": "20 + 10 + 3"
+        },
+        {
+          "id": "numeros_041",
+          "yuhmu": "’Róte ma ’ré̱t’a gǒho",
+          "spanish": "Treinta y cuatro",
+          "context": "La cantidad de semillas que guardo es 34; en Yhụmụ digo «’Róte ma ’ré̱t’a gǒho».",
+          "note": "20 + 10 + 4"
+        },
+        {
+          "id": "numeros_042",
+          "yuhmu": "’Róte ma ’ré̱t’a kú̱t’a",
+          "spanish": "Treinta y cinco",
+          "context": "La cantidad de semillas que guardo es 35; en Yhụmụ digo «’Róte ma ’ré̱t’a kú̱t’a».",
+          "note": "20 + 10 + 5"
+        },
+        {
+          "id": "numeros_043",
+          "yuhmu": "’Róte ma ’ré̱t’a ’ráto",
+          "spanish": "Treinta y seis",
+          "context": "La cantidad de semillas que guardo es 36; en Yhụmụ digo «’Róte ma ’ré̱t’a ’ráto».",
+          "note": "20 + 10 + 6"
+        },
+        {
+          "id": "numeros_044",
+          "yuhmu": "’Róte ma ’ré̱t’a yòto",
+          "spanish": "Treinta y siete",
+          "context": "La cantidad de semillas que guardo es 37; en Yhụmụ digo «’Róte ma ’ré̱t’a yòto».",
+          "note": "20 + 10 + 7"
+        },
+        {
+          "id": "numeros_045",
+          "yuhmu": "’Róte ma ’ré̱t’a hyä́to",
+          "spanish": "Treinta y ocho",
+          "context": "La cantidad de semillas que guardo es 38; en Yhụmụ digo «’Róte ma ’ré̱t’a hyä́to».",
+          "note": "20 + 10 + 8"
+        },
+        {
+          "id": "numeros_046",
+          "yuhmu": "’Róte ma ’ré̱t’a gǔ̱to",
+          "spanish": "Treinta y nueve",
+          "context": "La cantidad de semillas que guardo es 39; en Yhụmụ digo «’Róte ma ’ré̱t’a gǔ̱to».",
+          "note": "20 + 10 + 9"
+        },
+        {
+          "id": "numeros_022",
+          "yuhmu": "Yóho i ’róte",
+          "spanish": "Cuarenta",
+          "context": "La cantidad de semillas que guardo es 40; en Yhụmụ digo «Yóho i ’róte».",
+          "note": "2 x 20 (Dos veintes)"
+        },
+        {
+          "id": "numeros_047",
+          "yuhmu": "Yóho i ’róte n’á",
+          "spanish": "Cuarenta y uno",
+          "context": "La cantidad de semillas que guardo es 41; en Yhụmụ digo «Yóho i ’róte n’á».",
+          "note": "(2 X 20) + n’á"
+        },
+        {
+          "id": "numeros_048",
+          "yuhmu": "Yóho i ’róte yóho",
+          "spanish": "Cuarenta y dos",
+          "context": "La cantidad de semillas que guardo es 42; en Yhụmụ digo «Yóho i ’róte yóho».",
+          "note": "(2 X 20) + yóho"
+        },
+        {
+          "id": "numeros_049",
+          "yuhmu": "Yóho i ’róte hyǘ",
+          "spanish": "Cuarenta y tres",
+          "context": "La cantidad de semillas que guardo es 43; en Yhụmụ digo «Yóho i ’róte hyǘ».",
+          "note": "(2 X 20) + 3"
+        },
+        {
+          "id": "numeros_050",
+          "yuhmu": "Yóho i ’róte gǒho",
+          "spanish": "Cuarenta y cuatro",
+          "context": "La cantidad de semillas que guardo es 44; en Yhụmụ digo «Yóho i ’róte gǒho».",
+          "note": "(2 X 20) + 4"
+        },
+        {
+          "id": "numeros_051",
+          "yuhmu": "Yóho i ’róte kú̱t’a",
+          "spanish": "Cuarenta y cinco",
+          "context": "La cantidad de semillas que guardo es 45; en Yhụmụ digo «Yóho i ’róte kú̱t’a».",
+          "note": "(2 X 20) + 5"
+        },
+        {
+          "id": "numeros_052",
+          "yuhmu": "Yóho i ’róte ’ráto",
+          "spanish": "Cuarenta y seis",
+          "context": "La cantidad de semillas que guardo es 46; en Yhụmụ digo «Yóho i ’róte ’ráto».",
+          "note": "(2 X 20) + 6"
+        },
+        {
+          "id": "numeros_053",
+          "yuhmu": "Yóho i ’róte yòto",
+          "spanish": "Cuarenta y siete",
+          "context": "La cantidad de semillas que guardo es 47; en Yhụmụ digo «Yóho i ’róte yòto».",
+          "note": "(2 X 20) + 7"
+        },
+        {
+          "id": "numeros_054",
+          "yuhmu": "Yóho i ’róte hyä́to",
+          "spanish": "Cuarenta y ocho",
+          "context": "La cantidad de semillas que guardo es 48; en Yhụmụ digo «Yóho i ’róte hyä́to».",
+          "note": "(2 X 20) + 8"
+        },
+        {
+          "id": "numeros_055",
+          "yuhmu": "Yóho i ’róte gǔ̱to",
+          "spanish": "Cuarenta y nueve",
+          "context": "La cantidad de semillas que guardo es 49; en Yhụmụ digo «Yóho i ’róte gǔ̱to».",
+          "note": "(2 X 20) + 9"
+        },
+        {
+          "id": "numeros_023",
+          "yuhmu": "Ngú̱pho",
+          "spanish": "Cincuenta",
+          "context": "La cantidad de semillas que guardo es 50; en Yhụmụ digo «Ngú̱pho».",
+          "note": "Raíz independiente (Simple)"
+        },
+        {
+          "id": "numeros_056",
+          "yuhmu": "Ngú̱pho ma ’ná",
+          "spanish": "Cincuenta y uno",
+          "context": "La cantidad de semillas que guardo es 51; en Yhụmụ digo «Ngú̱pho ma ’ná».",
+          "note": "50 + ’ná"
+        },
+        {
+          "id": "numeros_057",
+          "yuhmu": "Ngú̱pho ma yóho",
+          "spanish": "Cincuenta y dos",
+          "context": "La cantidad de semillas que guardo es 52; en Yhụmụ digo «Ngú̱pho ma yóho».",
+          "note": "50 + yóho"
+        },
+        {
+          "id": "numeros_058",
+          "yuhmu": "Ngú̱pho ma hyǘ",
+          "spanish": "Cincuenta y tres",
+          "context": "La cantidad de semillas que guardo es 53; en Yhụmụ digo «Ngú̱pho ma hyǘ».",
+          "note": "50 + 3"
+        },
+        {
+          "id": "numeros_059",
+          "yuhmu": "Ngú̱pho ma gǒho",
+          "spanish": "Cincuenta y cuatro",
+          "context": "La cantidad de semillas que guardo es 54; en Yhụmụ digo «Ngú̱pho ma gǒho».",
+          "note": "50 + 4"
+        },
+        {
+          "id": "numeros_060",
+          "yuhmu": "Ngú̱pho ma kú̱t’a",
+          "spanish": "Cincuenta y cinco",
+          "context": "La cantidad de semillas que guardo es 55; en Yhụmụ digo «Ngú̱pho ma kú̱t’a».",
+          "note": "50 + 5"
+        },
+        {
+          "id": "numeros_061",
+          "yuhmu": "Ngú̱pho ma ’ráto",
+          "spanish": "Cincuenta y seis",
+          "context": "La cantidad de semillas que guardo es 56; en Yhụmụ digo «Ngú̱pho ma ’ráto».",
+          "note": "50 + 6"
+        },
+        {
+          "id": "numeros_062",
+          "yuhmu": "Ngú̱pho ma yòto",
+          "spanish": "Cincuenta y siete",
+          "context": "La cantidad de semillas que guardo es 57; en Yhụmụ digo «Ngú̱pho ma yòto».",
+          "note": "50 + 7"
+        },
+        {
+          "id": "numeros_063",
+          "yuhmu": "Ngú̱pho ma hyä́to",
+          "spanish": "Cincuenta y ocho",
+          "context": "La cantidad de semillas que guardo es 58; en Yhụmụ digo «Ngú̱pho ma hyä́to».",
+          "note": "50 + 8"
+        },
+        {
+          "id": "numeros_064",
+          "yuhmu": "Ngú̱pho ma gǔ̱to",
+          "spanish": "Cincuenta y nueve",
+          "context": "La cantidad de semillas que guardo es 59; en Yhụmụ digo «Ngú̱pho ma gǔ̱to».",
+          "note": "50 + 9"
+        },
+        {
+          "id": "numeros_024",
+          "yuhmu": "Hyǘ i ’róte",
+          "spanish": "Sesenta",
+          "context": "La cantidad de semillas que guardo es 60; en Yhụmụ digo «Hyǘ i ’róte».",
+          "note": "3 X 20 (Tres veintes)"
+        },
+        {
+          "id": "numeros_065",
+          "yuhmu": "Hyǘ i ’róte ’ná",
+          "spanish": "Sesenta y uno",
+          "context": "La cantidad de semillas que guardo es 61; en Yhụmụ digo «Hyǘ i ’róte ’ná».",
+          "note": "(3 X 20) + 1"
+        },
+        {
+          "id": "numeros_066",
+          "yuhmu": "Hyǘ i ’róte yóho",
+          "spanish": "Sesenta y dos",
+          "context": "La cantidad de semillas que guardo es 62; en Yhụmụ digo «Hyǘ i ’róte yóho».",
+          "note": "(3 X 20) + 2"
+        },
+        {
+          "id": "numeros_067",
+          "yuhmu": "Hyǘ i ’róte hyǘ",
+          "spanish": "Sesenta y tres",
+          "context": "La cantidad de semillas que guardo es 63; en Yhụmụ digo «Hyǘ i ’róte hyǘ».",
+          "note": "(3 X 20) + 3"
+        },
+        {
+          "id": "numeros_068",
+          "yuhmu": "Hyǘ i ’róte gǒho",
+          "spanish": "Sesenta y cuatro",
+          "context": "La cantidad de semillas que guardo es 64; en Yhụmụ digo «Hyǘ i ’róte gǒho».",
+          "note": "(3 X 20) + 4"
+        },
+        {
+          "id": "numeros_069",
+          "yuhmu": "Hyǘ i ’róte kú̱t’a",
+          "spanish": "Sesenta y cinco",
+          "context": "La cantidad de semillas que guardo es 65; en Yhụmụ digo «Hyǘ i ’róte kú̱t’a».",
+          "note": "(3 X 20) + 5"
+        },
+        {
+          "id": "numeros_070",
+          "yuhmu": "Hyǘ i ’róte ’ráto",
+          "spanish": "Sesenta y seis",
+          "context": "La cantidad de semillas que guardo es 66; en Yhụmụ digo «Hyǘ i ’róte ’ráto».",
+          "note": "(3 X 20) + 6"
+        },
+        {
+          "id": "numeros_071",
+          "yuhmu": "Hyǘ i ’róte yòto",
+          "spanish": "Sesenta y siete",
+          "context": "La cantidad de semillas que guardo es 67; en Yhụmụ digo «Hyǘ i ’róte yòto».",
+          "note": "(3 X 20) + 7"
+        },
+        {
+          "id": "numeros_072",
+          "yuhmu": "Hyǘ i ’róte hyä́to",
+          "spanish": "Sesenta y ocho",
+          "context": "La cantidad de semillas que guardo es 68; en Yhụmụ digo «Hyǘ i ’róte hyä́to».",
+          "note": "(3 X 20) + 8"
+        },
+        {
+          "id": "numeros_073",
+          "yuhmu": "Hyǘ i ’róte gǔ̱to",
+          "spanish": "Sesenta y nueve",
+          "context": "La cantidad de semillas que guardo es 69; en Yhụmụ digo «Hyǘ i ’róte gǔ̱to».",
+          "note": "(3 X 20) + 9"
+        },
+        {
+          "id": "numeros_025",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a",
+          "spanish": "Setenta",
+          "context": "La cantidad de semillas que guardo es 70; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a».",
+          "note": "(3 X 20) + 10"
+        },
+        {
+          "id": "numeros_074",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a ’ná",
+          "spanish": "Setenta y uno",
+          "context": "La cantidad de semillas que guardo es 71; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a ’ná».",
+          "note": "(3 X 20) + 10 + 1"
+        },
+        {
+          "id": "numeros_075",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a yóho",
+          "spanish": "Setenta y dos",
+          "context": "La cantidad de semillas que guardo es 72; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a yóho».",
+          "note": "(3 X 20) + 10 + 2"
+        },
+        {
+          "id": "numeros_076",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a hyǘ",
+          "spanish": "Setenta y tres",
+          "context": "La cantidad de semillas que guardo es 73; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a hyǘ».",
+          "note": "(3 X 20) + 10 + 3"
+        },
+        {
+          "id": "numeros_077",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a gǒho",
+          "spanish": "Setenta y cuatro",
+          "context": "La cantidad de semillas que guardo es 74; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a gǒho».",
+          "note": "(3 X 20) + 10 + 4"
+        },
+        {
+          "id": "numeros_078",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a kú̱t’a",
+          "spanish": "Setenta y cinco",
+          "context": "La cantidad de semillas que guardo es 75; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a kú̱t’a».",
+          "note": "(3 X 20) + 10 + 5"
+        },
+        {
+          "id": "numeros_079",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a ’ráto",
+          "spanish": "Setenta y seis",
+          "context": "La cantidad de semillas que guardo es 76; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a ’ráto».",
+          "note": "(3 X 20) + 10 + 6"
+        },
+        {
+          "id": "numeros_080",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a yòto",
+          "spanish": "Setenta y siete",
+          "context": "La cantidad de semillas que guardo es 77; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a yòto».",
+          "note": "(3 X 20) + 10 + 7"
+        },
+        {
+          "id": "numeros_081",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a hyä́to",
+          "spanish": "Setenta y ocho",
+          "context": "La cantidad de semillas que guardo es 78; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a hyä́to».",
+          "note": "(3 X 20) + 10 + 8"
+        },
+        {
+          "id": "numeros_082",
+          "yuhmu": "Hyǘ i ’róte ’ré̱t’a gǔ̱to",
+          "spanish": "Setenta y nueve",
+          "context": "La cantidad de semillas que guardo es 79; en Yhụmụ digo «Hyǘ i ’róte ’ré̱t’a gǔ̱to».",
+          "note": "(3 X 20) + 10 + 9"
+        },
+        {
+          "id": "numeros_026",
+          "yuhmu": "Gǒho i ’róte",
+          "spanish": "Ochenta",
+          "context": "La cantidad de semillas que guardo es 80; en Yhụmụ digo «Gǒho i ’róte».",
+          "note": "4 X 20 (Cuatro veintes)"
+        },
+        {
+          "id": "numeros_083",
+          "yuhmu": "Gǒho i ’róte ’ná",
+          "spanish": "Ochenta y uno",
+          "context": "La cantidad de semillas que guardo es 81; en Yhụmụ digo «Gǒho i ’róte ’ná».",
+          "note": "(4 X 20) + 1"
+        },
+        {
+          "id": "numeros_084",
+          "yuhmu": "Gǒho i ’róte yóho",
+          "spanish": "Ochenta y dos",
+          "context": "La cantidad de semillas que guardo es 82; en Yhụmụ digo «Gǒho i ’róte yóho».",
+          "note": "(4 X 20) + 2"
+        },
+        {
+          "id": "numeros_085",
+          "yuhmu": "Gǒho i ’róte hyǘ",
+          "spanish": "Ochenta y tres",
+          "context": "La cantidad de semillas que guardo es 83; en Yhụmụ digo «Gǒho i ’róte hyǘ».",
+          "note": "(4 X 20) + 3"
+        },
+        {
+          "id": "numeros_086",
+          "yuhmu": "Gǒho i ’róte gǒho",
+          "spanish": "Ochenta y cuatro",
+          "context": "La cantidad de semillas que guardo es 84; en Yhụmụ digo «Gǒho i ’róte gǒho».",
+          "note": "(4 X 20) + 4"
+        },
+        {
+          "id": "numeros_087",
+          "yuhmu": "Gǒho i ’róte kú̱t’a",
+          "spanish": "Ochenta y cinco",
+          "context": "La cantidad de semillas que guardo es 85; en Yhụmụ digo «Gǒho i ’róte kú̱t’a».",
+          "note": "(4 X 20) + 5"
+        },
+        {
+          "id": "numeros_088",
+          "yuhmu": "Gǒho i ’róte ’ráto",
+          "spanish": "Ochenta y seis",
+          "context": "La cantidad de semillas que guardo es 86; en Yhụmụ digo «Gǒho i ’róte ’ráto».",
+          "note": "(4 X 20) + 6"
+        },
+        {
+          "id": "numeros_089",
+          "yuhmu": "Gǒho i ’róte yòto",
+          "spanish": "Ochenta y siete",
+          "context": "La cantidad de semillas que guardo es 87; en Yhụmụ digo «Gǒho i ’róte yòto».",
+          "note": "(4 X 20) + 7"
+        },
+        {
+          "id": "numeros_090",
+          "yuhmu": "Gǒho i ’róte hyä́to",
+          "spanish": "Ochenta y ocho",
+          "context": "La cantidad de semillas que guardo es 88; en Yhụmụ digo «Gǒho i ’róte hyä́to».",
+          "note": "(4 X 20) + 8"
+        },
+        {
+          "id": "numeros_091",
+          "yuhmu": "Gǒho i ’róte gǔ̱to",
+          "spanish": "Ochenta y nueve",
+          "context": "La cantidad de semillas que guardo es 89; en Yhụmụ digo «Gǒho i ’róte gǔ̱to».",
+          "note": "(4 X 20) + 9"
+        },
+        {
+          "id": "numeros_027",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a",
+          "spanish": "Noventa",
+          "context": "La cantidad de semillas que guardo es 90; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a».",
+          "note": "(4 X 20) + 10"
+        },
+        {
+          "id": "numeros_092",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a ’ná",
+          "spanish": "Noventa y uno",
+          "context": "La cantidad de semillas que guardo es 91; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a ’ná».",
+          "note": "(4 X 20) + 10 + 1"
+        },
+        {
+          "id": "numeros_093",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a yóho",
+          "spanish": "Noventa y dos",
+          "context": "La cantidad de semillas que guardo es 92; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a yóho».",
+          "note": "(4 X 20) + 10 + 2"
+        },
+        {
+          "id": "numeros_094",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a hyǘ",
+          "spanish": "Noventa y tres",
+          "context": "La cantidad de semillas que guardo es 93; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a hyǘ».",
+          "note": "(4 X 20) + 10 + 3"
+        },
+        {
+          "id": "numeros_095",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a gǒho",
+          "spanish": "Noventa y cuatro",
+          "context": "La cantidad de semillas que guardo es 94; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a gǒho».",
+          "note": "(4 X 20) + 10 + 4"
+        },
+        {
+          "id": "numeros_096",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a kú̱t’a",
+          "spanish": "Noventa y cinco",
+          "context": "La cantidad de semillas que guardo es 95; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a kú̱t’a».",
+          "note": "(4 X 20) + 10 + 5"
+        },
+        {
+          "id": "numeros_097",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a ’ráto",
+          "spanish": "Noventa y seis",
+          "context": "La cantidad de semillas que guardo es 96; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a ’ráto».",
+          "note": "(4 X 20) + 10 + 6"
+        },
+        {
+          "id": "numeros_098",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a yòto",
+          "spanish": "Noventa y siete",
+          "context": "La cantidad de semillas que guardo es 97; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a yòto».",
+          "note": "(4 X 20) + 10 + 7"
+        },
+        {
+          "id": "numeros_099",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a hyä́to",
+          "spanish": "Noventa y ocho",
+          "context": "La cantidad de semillas que guardo es 98; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a hyä́to».",
+          "note": "(4 X 20) + 10 + 8"
+        },
+        {
+          "id": "numeros_100",
+          "yuhmu": "Gǒho i ’róte ’ré̱t’a gǔ̱to",
+          "spanish": "Noventa y nueve",
+          "context": "La cantidad de semillas que guardo es 99; en Yhụmụ digo «Gǒho i ’róte ’ré̱t’a gǔ̱to».",
+          "note": "(4 X 20) + 10 + 9"
+        },
+        {
+          "id": "numeros_028",
+          "yuhmu": "N’à siénto",
+          "spanish": "Cien",
+          "context": "La cantidad de semillas que guardo es 100; en Yhụmụ digo «N’à siénto».",
+          "note": "Forma de préstamo léxico."
+        },
+        {
+          "id": "numeros_101",
+          "yuhmu": "N’à nzù̱di",
+          "spanish": "Cien",
+          "context": "La cantidad de semillas que guardo es 100; en Yhụmụ digo «N’à nzù̱di».",
+          "note": "Forma autóctona documentada."
+        }
+      ]
+    },
+    {
+      "id": "cuerpo",
+      "title": "El cuerpo",
+      "icon": "figure.stand",
+      "words": [
+        {
+          "id": "cuerpo_001",
+          "yuhmu": "Khú̱ni",
+          "spanish": "Barba",
+          "context": "Algunos adultos tienen pelo en la parte inferior de la cara: «Khú̱ni»."
+        },
+        {
+          "id": "cuerpo_044",
+          "yuhmu": "Khú̱ni",
+          "spanish": "Bigote",
+          "context": "Debajo de la nariz puede crecer una franja de pelo llamada «Khú̱ni»."
+        },
+        {
+          "id": "cuerpo_002",
+          "yuhmu": "Né",
+          "spanish": "Boca",
+          "context": "Hablo, sonrío y como usando esta parte de la cara: «Né»."
+        },
+        {
+          "id": "cuerpo_003",
+          "yuhmu": "Yä́",
+          "spanish": "Cabeza",
+          "context": "Sobre el cuello está la parte del cuerpo que protege el cerebro: «Yä́»."
+        },
+        {
+          "id": "cuerpo_004",
+          "yuhmu": "Xtä̌",
+          "spanish": "Cabello / pelo",
+          "context": "Cada mañana me peino el pelo que crece en la cabeza: «Xtä̌»."
+        },
+        {
+          "id": "cuerpo_005",
+          "yuhmu": "Mú̱t’iyä",
+          "spanish": "Calvo",
+          "context": "Cuando una persona no tiene cabello en la cabeza, podemos decir que es «Mú̱t’iyä»."
+        },
+        {
+          "id": "cuerpo_006",
+          "yuhmu": "Hmí",
+          "spanish": "Cara",
+          "context": "Mis ojos, nariz y boca están en esta parte: «Hmí»."
+        },
+        {
+          "id": "cuerpo_007",
+          "yuhmu": "’Yǒdo",
+          "spanish": "Ceja",
+          "context": "El pelo que crece justo encima de cada ojo forma la «’Yǒdo»."
+        },
+        {
+          "id": "cuerpo_008",
+          "yuhmu": "Yüni",
+          "spanish": "Codo",
+          "context": "Doblo el brazo por esta articulación: «Yüni»."
+        },
+        {
+          "id": "cuerpo_009",
+          "yuhmu": "Mu̱ ̀ i",
+          "spanish": "Corazón",
+          "context": "Este órgano late dentro del pecho y bombea la sangre: «Mu̱ ̀ i»."
+        },
+        {
+          "id": "cuerpo_010",
+          "yuhmu": "’Yù̱ga",
+          "spanish": "Cuello, garganta",
+          "context": "Giro la cabeza gracias a la parte que la une con el tronco: «’Yù̱ga»."
+        },
+        {
+          "id": "cuerpo_011",
+          "yuhmu": "Xǒ",
+          "spanish": "Dedo",
+          "context": "Con esta parte de la mano señalo las cosas y tomo objetos pequeños: «Xǒ»."
+        },
+        {
+          "id": "cuerpo_012",
+          "yuhmu": "Yáhmo",
+          "spanish": "Dedo gordo del pie",
+          "context": "El dedo más grande que tenemos en cada pie es el «Yáhmo»."
+        },
+        {
+          "id": "cuerpo_013",
+          "yuhmu": "Ts’ii",
+          "spanish": "Diente",
+          "context": "Muerdo y mastico los alimentos con cada «Ts’ii»."
+        },
+        {
+          "id": "cuerpo_014",
+          "yuhmu": "Xǔ̱tha",
+          "spanish": "Espalda",
+          "context": "La parte de atrás del tronco, opuesta al pecho, es la «Xǔ̱tha»."
+        },
+        {
+          "id": "cuerpo_015",
+          "yuhmu": "Dë́",
+          "spanish": "Frente",
+          "context": "Me toco la parte de la cara que está arriba de las cejas: la «Dë́»."
+        },
+        {
+          "id": "cuerpo_045",
+          "yuhmu": "’Yù̱ga",
+          "spanish": "Garganta, cuello",
+          "context": "Por esta zona del cuello pasa la voz cuando hablamos y tragamos: «’Yù̱ga»."
+        },
+        {
+          "id": "cuerpo_016",
+          "yuhmu": "Yǎ",
+          "spanish": "Hígado",
+          "context": "Este órgano del abdomen ayuda al cuerpo a procesar lo que comemos: «Yǎ»."
+        },
+        {
+          "id": "cuerpo_017",
+          "yuhmu": "Xèpho",
+          "spanish": "Intestinos, tripas",
+          "context": "Después de comer, los alimentos continúan su recorrido por los «Xèpho»."
+        },
+        {
+          "id": "cuerpo_018",
+          "yuhmu": "Xǐne",
+          "spanish": "Labios",
+          "context": "Con esta parte de la boca sonrío y pronuncio muchas palabras: «Xǐne»."
+        },
+        {
+          "id": "cuerpo_019",
+          "yuhmu": "Khàne",
+          "spanish": "Lengua",
+          "context": "Uso este músculo dentro de la boca para saborear y ayudarme a hablar: «Khàne»."
+        },
+        {
+          "id": "cuerpo_020",
+          "yuhmu": "’Yé̱",
+          "spanish": "Mano",
+          "context": "Saludo, dibujo y tomo objetos con esta parte del cuerpo: «’Yé̱»."
+        },
+        {
+          "id": "cuerpo_046",
+          "yuhmu": "Hmí",
+          "spanish": "Mejilla",
+          "context": "Cuando sonrío, se levantan las dos partes suaves que están a los lados de la nariz: «Hmí»."
+        },
+        {
+          "id": "cuerpo_021",
+          "yuhmu": "Ndéhi",
+          "spanish": "Mollera",
+          "context": "En los bebés, esta zona de la parte superior de la cabeza es especialmente suave: «Ndéhi»."
+        },
+        {
+          "id": "cuerpo_022",
+          "yuhmu": "Ts’áphi",
+          "spanish": "Muela",
+          "context": "Las piezas que están al fondo de la boca y trituran la comida son las «Ts’áphi»."
+        },
+        {
+          "id": "cuerpo_023",
+          "yuhmu": "Xìyü",
+          "spanish": "Nariz",
+          "context": "Respiro y percibo los olores usando la «Xìyü»."
+        },
+        {
+          "id": "cuerpo_024",
+          "yuhmu": "Zàts’u̱ ’yù̱ga",
+          "spanish": "Nervios del cuello",
+          "context": "Por estas estructuras pasan señales que comunican el cerebro con el cuerpo: «Zàts’u̱ ’yù̱ga»."
+        },
+        {
+          "id": "cuerpo_025",
+          "yuhmu": "Xǔ̱thayä",
+          "spanish": "Nuca",
+          "context": "Cuando me toco la parte de atrás del cuello, estoy tocando la «Xǔ̱thayä»."
+        },
+        {
+          "id": "cuerpo_026",
+          "yuhmu": "Dó",
+          "spanish": "Ojo",
+          "context": "Veo los colores y las formas con cada «Dó»."
+        },
+        {
+          "id": "cuerpo_027",
+          "yuhmu": "Ts’òi",
+          "spanish": "Ombligo",
+          "context": "Esta pequeña marca está en el centro del abdomen: el «Ts’òi»."
+        },
+        {
+          "id": "cuerpo_028",
+          "yuhmu": "Gǘ",
+          "spanish": "Oreja",
+          "context": "Escucho la música y las voces gracias a la «Gǘ»."
+        },
+        {
+          "id": "cuerpo_029",
+          "yuhmu": "Tíyä",
+          "spanish": "Pecho",
+          "context": "El corazón y los pulmones están protegidos dentro del «Tíyä»."
+        },
+        {
+          "id": "cuerpo_030",
+          "yuhmu": "Xǐdo",
+          "spanish": "Pestañas",
+          "context": "Son los pequeños pelos que protegen el borde de los ojos: las «Xǐdo»."
+        },
+        {
+          "id": "cuerpo_031",
+          "yuhmu": "Gwá",
+          "spanish": "Pie",
+          "context": "Camino y mantengo el equilibrio apoyando cada «Gwá»."
+        },
+        {
+          "id": "cuerpo_032",
+          "yuhmu": "Xinthe",
+          "spanish": "Pierna",
+          "context": "Para caminar, flexiono esta parte del cuerpo que va de la cadera al pie: la «Xinthe»."
+        },
+        {
+          "id": "cuerpo_033",
+          "yuhmu": "Ndànts’ihmi",
+          "spanish": "Pómulo",
+          "context": "Este hueso está en la parte alta de la mejilla, debajo del ojo: el «Ndànts’ihmi»."
+        },
+        {
+          "id": "cuerpo_034",
+          "yuhmu": "’Yǒne",
+          "spanish": "Quijada",
+          "context": "Muevo esta parte de la mandíbula cuando mastico: la «’Yǒne»."
+        },
+        {
+          "id": "cuerpo_035",
+          "yuhmu": "Yǎhmü",
+          "spanish": "Rodilla",
+          "context": "Doblo la pierna por esta articulación: la «Yǎhmü»."
+        },
+        {
+          "id": "cuerpo_036",
+          "yuhmu": "Ndú̱ngü",
+          "spanish": "Sien, sentido",
+          "context": "La zona lateral de la cabeza, cerca de los ojos, se llama la «Ndú̱ngü»."
+        },
+        {
+          "id": "cuerpo_037",
+          "yuhmu": "Gǚxtǒ’yo gu̱ xìyü",
+          "spanish": "Tabique nasal",
+          "context": "Esta pared dentro de la nariz separa las dos fosas nasales: el «Gǚxtǒ’yo gu̱ xìyü»."
+        },
+        {
+          "id": "cuerpo_038",
+          "yuhmu": "Xíxo",
+          "spanish": "Uña",
+          "context": "La parte dura que protege la punta de cada dedo es la «Xíxo»."
+        },
+        {
+          "id": "cuerpo_039",
+          "yuhmu": "’Óki xìyü",
+          "spanish": "Fosa nasal",
+          "context": "El aire entra por cada abertura de la nariz: una «’Óki xìyü»."
+        },
+        {
+          "id": "cuerpo_040",
+          "yuhmu": "Xixíyü",
+          "spanish": "Vello de la nariz",
+          "context": "Los pelitos que están dentro de la nariz se conocen como «Xixíyü»."
+        },
+        {
+          "id": "cuerpo_041",
+          "yuhmu": "Gàtu̱",
+          "spanish": "Arruga",
+          "context": "Al sonreír o con el paso del tiempo, puede aparecer una línea en la piel: una «Gàtu̱»."
+        },
+        {
+          "id": "cuerpo_042",
+          "yuhmu": "Khí",
+          "spanish": "Sangre",
+          "context": "Es el líquido rojo que circula por nuestro cuerpo: la «Khí»."
+        },
+        {
+          "id": "cuerpo_043",
+          "yuhmu": "Khìni",
+          "spanish": "Saliva",
+          "context": "La boca produce este líquido que ayuda a humedecer los alimentos: la «Khìni»."
+        }
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "La familia",
+      "icon": "person.2",
+      "words": [
+        {
+          "id": "familia_001",
+          "yuhmu": "T’ú̱",
+          "spanish": "Hijo",
+          "context": "En una familia, es el descendiente varón de una persona: «T’ú̱».",
+          "note": "Sustantivo base"
+        },
+        {
+          "id": "familia_002",
+          "yuhmu": "T’ìxü",
+          "spanish": "Hija",
+          "context": "En una familia, es la descendiente mujer de una persona: «T’ìxü»."
+        },
+        {
+          "id": "familia_003",
+          "yuhmu": "Ma bä̀tsiga",
+          "spanish": "Mi hijo",
+          "context": "Cuando hablo de mi descendiente varón, digo «Ma bä̀tsiga».",
+          "note": "Poseído: Ma + bä̀tsi + -ga"
+        },
+        {
+          "id": "familia_004",
+          "yuhmu": "Ma bä̀tsik’i",
+          "spanish": "Este mi hijo",
+          "context": "Cuando señalo a mi hijo y quiero decir “este”, uso «Ma bä̀tsik’i».",
+          "note": "Demostrativo / posesivo"
+        },
+        {
+          "id": "familia_005",
+          "yuhmu": "’Mé̱ to",
+          "spanish": "Nieto / Nieta",
+          "context": "Es el hijo o la hija de mi hijo o de mi hija: «’Mé̱ to».",
+          "note": "Sustantivo base"
+        },
+        {
+          "id": "familia_006",
+          "yuhmu": "’Mo’mé̱ to",
+          "spanish": "Bisnieto / Bisnieta",
+          "context": "Es el hijo o la hija de mi nieto o nieta: «’Mo’mé̱ to».",
+          "note": "Prefijo ’Mo-"
+        },
+        {
+          "id": "familia_007",
+          "yuhmu": "’Modo’mé̱ to",
+          "spanish": "Tataranieto / Tataranieta",
+          "context": "Es el descendiente que está una generación después de mi bisnieto o bisnieta: «’Modo’mé̱ to».",
+          "note": "Prefijo ’Modo-"
+        },
+        {
+          "id": "familia_008",
+          "yuhmu": "Lexǐtimu bä̀tsi",
+          "spanish": "Hijo legítimo",
+          "context": "En el vocabulario familiar, así se nombra al hijo reconocido como tal por sus padres: «Lexǐtimu bä̀tsi»."
+        },
+        {
+          "id": "familia_009",
+          "yuhmu": "Zǐni / Ho̱ bo̱ ts’ǐt’o",
+          "spanish": "Adoptar / Adoptado",
+          "context": "Cuando una familia recibe legalmente a una persona como hija o hijo, hablamos de «Zǐni / Ho̱ bo̱ ts’ǐt’o»."
+        },
+        {
+          "id": "familia_010",
+          "yuhmu": "Dada",
+          "spanish": "Papá",
+          "context": "Es el padre, la persona a quien puedo llamar “papá”: «Dada»."
+        },
+        {
+          "id": "familia_011",
+          "yuhmu": "nana",
+          "spanish": "Mamá",
+          "context": "Es la madre, la persona a quien puedo llamar “mamá”: «nana»."
+        },
+        {
+          "id": "familia_012",
+          "yuhmu": "Tsǘ",
+          "spanish": "Abuela",
+          "context": "Es la madre de mi mamá o de mi papá: mi «Tsǘ»."
+        },
+        {
+          "id": "familia_013",
+          "yuhmu": "Dä̀ta",
+          "spanish": "Abuelo",
+          "context": "Es el padre de mi mamá o de mi papá: mi «Dä̀ta»."
+        },
+        {
+          "id": "familia_014",
+          "yuhmu": "’Mótsü",
+          "spanish": "Bisabuela",
+          "context": "Es la madre de mi abuela o de mi abuelo: mi «’Mótsü».",
+          "note": "’Mó- + Tsǘ"
+        },
+        {
+          "id": "familia_015",
+          "yuhmu": "’Modä̀ta",
+          "spanish": "Bisabuelo",
+          "context": "Es el padre de mi abuela o de mi abuelo: mi «’Modä̀ta».",
+          "note": "’Mo- + Dä̀ta"
+        },
+        {
+          "id": "familia_016",
+          "yuhmu": "Nchǐta",
+          "spanish": "Tatarabuela",
+          "context": "Es la madre de mi bisabuela o bisabuelo: mi «Nchǐta»."
+        },
+        {
+          "id": "familia_017",
+          "yuhmu": "Nchǐto",
+          "spanish": "Tatarabuelo",
+          "context": "Es el padre de mi bisabuela o bisabuelo: mi «Nchǐto»."
+        },
+        {
+          "id": "familia_018",
+          "yuhmu": "Bo̱pangǎnde",
+          "spanish": "Tatarabuelo / Ancestro",
+          "context": "Al hablar de generaciones antiguas de mi familia, puedo nombrar a un «Bo̱pangǎnde»."
+        },
+        {
+          "id": "familia_019",
+          "yuhmu": "’Wě",
+          "spanish": "Tío",
+          "context": "Es el hermano de mi mamá o de mi papá: mi «’Wě»."
+        },
+        {
+          "id": "familia_020",
+          "yuhmu": "Zìtsi",
+          "spanish": "Tía",
+          "context": "Es la hermana de mi mamá o de mi papá: mi «Zìtsi»."
+        },
+        {
+          "id": "familia_021",
+          "yuhmu": "’Me̱dìtsi",
+          "spanish": "Sobrino / Sobrina",
+          "context": "Es el hijo o hija de mi hermano o hermana: mi «’Me̱dìtsi»."
+        },
+        {
+          "id": "familia_022",
+          "yuhmu": "’Mé̱ to ’me̱dìtsi",
+          "spanish": "Sobrino/a nieto/a",
+          "context": "Es el hijo o hija de mi sobrino o sobrina: mi «’Mé̱ to ’me̱dìtsi».",
+          "note": "“Nieto-sobrino”"
+        },
+        {
+          "id": "familia_023",
+          "yuhmu": "Prǐmo do̱ t’e",
+          "spanish": "Primo hermano",
+          "context": "Es el hijo de mi tío o tía: mi «Prǐmo do̱ t’e».",
+          "note": "Término para hermano, dicho por hombre"
+        },
+        {
+          "id": "familia_024",
+          "yuhmu": "Prǐma zíkü",
+          "spanish": "Prima hermana",
+          "context": "Es la hija de mi tío o tía: mi «Prǐma zíkü».",
+          "note": "Término para hermana, dicho por mujer"
+        },
+        {
+          "id": "familia_025",
+          "yuhmu": "Ìda",
+          "spanish": "Hermano",
+          "context": "Es el hijo de mis mismos padres que también forma parte de mi familia: mi «Ìda».",
+          "note": "Dicho por una mujer"
+        },
+        {
+          "id": "familia_026",
+          "yuhmu": "Dó̱ t’e",
+          "spanish": "Hermano",
+          "context": "Es el hijo de mis mismos padres que también forma parte de mi familia: mi «Dó̱ t’e».",
+          "note": "Dicho por un hombre"
+        },
+        {
+          "id": "familia_027",
+          "yuhmu": "Zǐkü",
+          "spanish": "Hermana",
+          "context": "Es la hija de mis mismos padres que también forma parte de mi familia: mi «Zǐkü».",
+          "note": "Dicha por una mujer"
+        },
+        {
+          "id": "familia_028",
+          "yuhmu": "Nkhǘ",
+          "spanish": "Hermana",
+          "context": "Es la hija de mis mismos padres que también forma parte de mi familia: mi «Nkhǘ».",
+          "note": "Dicha por un hombre"
+        },
+        {
+          "id": "familia_029",
+          "yuhmu": "Ma ’me̱ t’o’ìdagá",
+          "spanish": "Mi hermano mayor",
+          "context": "Cuando hablo del hermano que nació antes que yo, digo «Ma ’me̱ t’o’ìdagá».",
+          "note": "“Mi primer hermano”, dicho por mujer"
+        },
+        {
+          "id": "familia_030",
+          "yuhmu": "Ma zíküga ngé ma pǎga",
+          "spanish": "Media hermana de papá",
+          "context": "Es la hija de mi papá que comparte conmigo solo a mi padre: mi «Ma zíküga ngé ma pǎga».",
+          "note": "Mi hermana por parte de mi papá"
+        },
+        {
+          "id": "familia_031",
+          "yuhmu": "Ma zíküga ngé ma mǎga",
+          "spanish": "Media hermana de mamá",
+          "context": "Es la hija de mi mamá que comparte conmigo solo a mi madre: mi «Ma zíküga ngé ma mǎga».",
+          "note": "Mi hermana por parte de mi mamá"
+        },
+        {
+          "id": "familia_032",
+          "yuhmu": "Ma ìdaga ngé ma pǎga",
+          "spanish": "Medio hermano de papá",
+          "context": "Es el hijo de mi papá que comparte conmigo solo a mi padre: mi «Ma ìdaga ngé ma pǎga»."
+        },
+        {
+          "id": "familia_033",
+          "yuhmu": "Ma ìdaga ngé ma mǎga",
+          "spanish": "Medio hermano de mamá",
+          "context": "Es el hijo de mi mamá que comparte conmigo solo a mi madre: mi «Ma ìdaga ngé ma mǎga»."
+        },
+        {
+          "id": "familia_034",
+          "yuhmu": "Ma dámega",
+          "spanish": "Mi señor",
+          "context": "En algunas formas de trato familiar o respetuoso, puedo dirigirme a alguien como «Ma dámega».",
+          "note": "Posesivo Ma...ga + dáme"
+        },
+        {
+          "id": "familia_035",
+          "yuhmu": "Ma dáxüga / Ma xítsügá",
+          "spanish": "Mi señora",
+          "context": "En algunas formas de trato familiar o respetuoso, puedo dirigirme a alguien como «Ma dáxüga / Ma xítsügá».",
+          "note": "Posesivo Ma...ga + dáxü / xítsü"
+        },
+        {
+          "id": "familia_036",
+          "yuhmu": "Pá",
+          "spanish": "Suegro",
+          "context": "Es el padre de mi pareja o cónyuge: mi «Pá».",
+          "note": "Homófono con “papá”"
+        },
+        {
+          "id": "familia_037",
+          "yuhmu": "Má",
+          "spanish": "Suegra",
+          "context": "Es la madre de mi pareja o cónyuge: mi «Má».",
+          "note": "Homófono con “mamá”"
+        },
+        {
+          "id": "familia_038",
+          "yuhmu": "Kǒ",
+          "spanish": "Yerno",
+          "context": "Es el esposo de mi hija: mi «Kǒ»."
+        },
+        {
+          "id": "familia_039",
+          "yuhmu": "M’mè̱hä",
+          "spanish": "Nuera",
+          "context": "Es la esposa de mi hijo: mi «M’mè̱hä»."
+        },
+        {
+          "id": "familia_040",
+          "yuhmu": "’Mó",
+          "spanish": "Cuñado",
+          "context": "Es el hermano de mi pareja, o el esposo de mi hermana: mi «’Mó»."
+        },
+        {
+          "id": "familia_041",
+          "yuhmu": "’Múdu",
+          "spanish": "Cuñada",
+          "context": "Es la hermana de mi pareja, o la esposa de mi hermano: mi «’Múdu»."
+        },
+        {
+          "id": "familia_042",
+          "yuhmu": "Ho̱ ta",
+          "spanish": "Padrastro",
+          "context": "Es la pareja de mi mamá que ocupa un lugar de figura paterna: mi «Ho̱ ta».",
+          "note": "Prefijo de reemplazo Ho̱-"
+        },
+        {
+          "id": "familia_043",
+          "yuhmu": "Ho̱me",
+          "spanish": "Madrastra",
+          "context": "Es la pareja de mi papá que ocupa un lugar de figura materna: mi «Ho̱me»."
+        },
+        {
+          "id": "familia_044",
+          "yuhmu": "Hó̱bo̱ ts’i",
+          "spanish": "Hijastro/a, entenado",
+          "context": "Es el hijo o hija de mi pareja, respecto de mí: mi «Hó̱bo̱ ts’i».",
+          "note": "Referido a niños"
+        },
+        {
+          "id": "familia_045",
+          "yuhmu": "Ho̱ t’u̱",
+          "spanish": "Hijastro",
+          "context": "Es el hijo de mi pareja, respecto de mí: mi «Ho̱ t’u̱».",
+          "note": "Joven"
+        },
+        {
+          "id": "familia_046",
+          "yuhmu": "Hó̱ t’ixü",
+          "spanish": "Hijastra",
+          "context": "Es la hija de mi pareja, respecto de mí: mi «Hó̱ t’ixü».",
+          "note": "Señorita"
+        },
+        {
+          "id": "familia_047",
+          "yuhmu": "Tàikhä",
+          "spanish": "Padrino",
+          "context": "Es la persona que acompaña y apoya a alguien en un vínculo de padrinazgo: «Tàikhä»."
+        },
+        {
+          "id": "familia_048",
+          "yuhmu": "Měkhä",
+          "spanish": "Madrina",
+          "context": "Es la persona que acompaña y apoya a alguien en un vínculo de madrinazgo: «Měkhä»."
+        },
+        {
+          "id": "familia_049",
+          "yuhmu": "Ts’ìhwe̱ / Thé̱ ts’i",
+          "spanish": "Ahijado / Ahijada",
+          "context": "Es la persona de quien soy padrino o madrina: mi «Ts’ìhwe̱ / Thé̱ ts’i»."
+        },
+        {
+          "id": "familia_050",
+          "yuhmu": "mbǎne nkhä̀pi",
+          "spanish": "Compadre",
+          "context": "Es una persona unida a mí por el vínculo de padrinazgo de nuestros hijos: mi «mbǎne nkhä̀pi».",
+          "note": "Dicho por mujer"
+        },
+        {
+          "id": "familia_051",
+          "yuhmu": "gǔmba nkhä̀pi",
+          "spanish": "Compadre",
+          "context": "Es una persona unida a mí por el vínculo de padrinazgo de nuestros hijos: mi «gǔmba nkhä̀pi».",
+          "note": "Dicho por hombre"
+        },
+        {
+          "id": "familia_052",
+          "yuhmu": "mǎne",
+          "spanish": "Comadre",
+          "context": "Es una persona unida a mí por el vínculo de madrinazgo de nuestros hijos: mi «mǎne».",
+          "note": "Dicho por hombre y mujer"
+        },
+        {
+          "id": "familia_053",
+          "yuhmu": "me̱gi dǎda",
+          "spanish": "Señor / Don",
+          "context": "Es una forma respetuosa de dirigirme a un hombre: «me̱gi dǎda»."
+        },
+        {
+          "id": "familia_054",
+          "yuhmu": "me̱gi nǎna",
+          "spanish": "Señora / Doña",
+          "context": "Es una forma respetuosa de dirigirme a una mujer: «me̱gi nǎna»."
+        },
+        {
+          "id": "familia_055",
+          "yuhmu": "Mphä́di",
+          "spanish": "Amigo o conocido",
+          "context": "Es alguien con quien tengo una relación cercana o a quien conozco: «Mphä́di»."
+        },
+        {
+          "id": "familia_056",
+          "yuhmu": "Híngi dì n’yóhwi",
+          "spanish": "Enemigo",
+          "context": "Es una persona con quien existe una relación de oposición o conflicto: «Híngi dì n’yóhwi»."
+        },
+        {
+          "id": "familia_057",
+          "yuhmu": "Ràndi khä́’ï",
+          "spanish": "Extraño / Desconocido",
+          "context": "Es una persona a quien todavía no conozco: «Ràndi khä́’ï»."
+        },
+        {
+          "id": "familia_058",
+          "yuhmu": "Bisǐnu",
+          "spanish": "Vecino",
+          "context": "Es la persona que vive cerca de mi casa: mi «Bisǐnu»."
+        },
+        {
+          "id": "familia_059",
+          "yuhmu": "Hyòya",
+          "spanish": "Huérfano",
+          "context": "Es un niño o niña que ha perdido a sus padres: «Hyòya»."
+        },
+        {
+          "id": "familia_060",
+          "yuhmu": "’Mè̱go",
+          "spanish": "Hombre no nativo / Forastero",
+          "context": "Es un hombre que viene de otro lugar y no pertenece originalmente a la comunidad: «’Mè̱go»."
+        },
+        {
+          "id": "familia_061",
+          "yuhmu": "Tsü’mìgü",
+          "spanish": "Mujer no nativa / Forastera",
+          "context": "Es una mujer que viene de otro lugar y no pertenece originalmente a la comunidad: «Tsü’mìgü»."
+        },
+        {
+          "id": "familia_062",
+          "yuhmu": "Dí ’yǒga’me",
+          "spanish": "Es mi pariente",
+          "context": "Cuando una persona pertenece a mi familia, puedo decir «Dí ’yǒga’me»."
+        },
+        {
+          "id": "familia_063",
+          "yuhmu": "Hḯ xáti ’yǒga’me / Xáti ’yǒga’me",
+          "spanish": "No es mi pariente",
+          "context": "Cuando una persona no pertenece a mi familia, puedo decir «Hḯ xáti ’yǒga’me / Xáti ’yǒga’me»."
+        },
+        {
+          "id": "familia_064",
+          "yuhmu": "t’ǎxki khä̀’i",
+          "spanish": "Gente blanca / persona blanca",
+          "context": "Es una descripción de tono de piel que aparece en el vocabulario del material: «t’ǎxki khä̀’i»."
+        },
+        {
+          "id": "familia_065",
+          "yuhmu": "k’ǎxt’i khä̀’i",
+          "spanish": "Gente güera / persona güera",
+          "context": "Es una descripción de apariencia que aparece en el vocabulario del material: «k’ǎxt’i khä̀’i»."
+        },
+        {
+          "id": "familia_066",
+          "yuhmu": "‘mò k’ì’a",
+          "spanish": "Gente negra / persona negra",
+          "context": "Es una descripción de tono de piel que aparece en el vocabulario del material: «‘mò k’ì’a»."
+        },
+        {
+          "id": "familia_067",
+          "yuhmu": "mètsi",
+          "spanish": "Niño / Muchachito",
+          "context": "Es una persona que está en la etapa de la niñez: «mètsi»."
+        },
+        {
+          "id": "familia_068",
+          "yuhmu": "Mi hijo",
+          "spanish": "Ma bä̀tsiga",
+          "context": "En una reunión familiar, «Mi hijo» es una persona importante para mí."
+        },
+        {
+          "id": "familia_069",
+          "yuhmu": "Mi hija",
+          "spanish": "Ma T’ìxüga",
+          "context": "En una reunión familiar, «Mi hija» es una persona importante para mí."
+        },
+        {
+          "id": "familia_070",
+          "yuhmu": "Mi nuera",
+          "spanish": "Ma M’mè̱häga",
+          "context": "En una reunión familiar, «Mi nuera» es una persona importante para mí."
+        },
+        {
+          "id": "familia_071",
+          "yuhmu": "Mi primo",
+          "spanish": "Ma Prǐmo do̱ t’ega",
+          "context": "En una reunión familiar, «Mi primo» es una persona importante para mí."
+        },
+        {
+          "id": "familia_072",
+          "yuhmu": "Mi tía",
+          "spanish": "Ma Zìtsiga",
+          "context": "En una reunión familiar, «Mi tía» es una persona importante para mí."
+        },
+        {
+          "id": "familia_073",
+          "yuhmu": "Mi tío",
+          "spanish": "Ma ’Wěga",
+          "context": "En una reunión familiar, «Mi tío» es una persona importante para mí."
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "title": "Plantas, frutas y cultivos",
+      "icon": "leaf",
+      "words": [
+        {
+          "id": "plantas_001",
+          "yuhmu": "Xó",
+          "spanish": "Acahual",
+          "context": "En el campo crece esta planta silvestre, conocida como «Xó»."
+        },
+        {
+          "id": "plantas_002",
+          "yuhmu": "Ts’óni",
+          "spanish": "Aguacate",
+          "context": "Corto un fruto verde de cáscara oscura y pulpa suave para acompañar la comida: «Ts’óni»."
+        },
+        {
+          "id": "plantas_003",
+          "yuhmu": "Dǒkhu̱",
+          "spanish": "Alverjón",
+          "context": "Estas semillas secas se cocinan en sopas y guisos: «Dǒkhu̱»."
+        },
+        {
+          "id": "plantas_004",
+          "yuhmu": "Zà",
+          "spanish": "Árbol, palo,leña",
+          "context": "En el campo, esta planta grande puede dar sombra y madera: «Zà»."
+        },
+        {
+          "id": "plantas_005",
+          "yuhmu": "Mǚ",
+          "spanish": "Calabaza",
+          "context": "En la huerta cosechamos este fruto grande que también se utiliza en la cocina: «Mǚ»."
+        },
+        {
+          "id": "plantas_006",
+          "yuhmu": "Bó’kw’ä",
+          "spanish": "Camote",
+          "context": "Esta raíz dulce se cocina y se come como alimento: «Bó’kw’ä»."
+        },
+        {
+          "id": "plantas_007",
+          "yuhmu": "Hwáhi",
+          "spanish": "Campo",
+          "context": "En las afueras del pueblo están los terrenos abiertos donde se cultiva: «Hwáhi»."
+        },
+        {
+          "id": "plantas_008",
+          "yuhmu": "K’á’yo",
+          "spanish": "Caña",
+          "context": "De esta planta alta se obtiene un tallo dulce que puede masticarse: «K’á’yo»."
+        },
+        {
+          "id": "plantas_009",
+          "yuhmu": "Dè̱se̱",
+          "spanish": "Capulín",
+          "context": "Este pequeño fruto oscuro crece en un árbol y se puede comer: «Dè̱se̱»."
+        },
+        {
+          "id": "plantas_010",
+          "yuhmu": "Sawǎra",
+          "spanish": "Cebada",
+          "context": "Este cereal se usa para preparar bebidas y alimentos: «Sawǎra»."
+        },
+        {
+          "id": "plantas_011",
+          "yuhmu": "’Wě",
+          "spanish": "Chahuistle",
+          "context": "Es una enfermedad de las plantas que puede afectar los cultivos: «’Wě»."
+        },
+        {
+          "id": "plantas_012",
+          "yuhmu": "Xàmü",
+          "spanish": "Chayote",
+          "context": "En la cocina se prepara esta verdura verde, de forma parecida a una pera: «Xàmü»."
+        },
+        {
+          "id": "plantas_013",
+          "yuhmu": "Nǎxnu",
+          "spanish": "Durazno",
+          "context": "Al abrir este fruto, encuentro pulpa jugosa y un hueso grande en el centro: «Nǎxnu»."
+        },
+        {
+          "id": "plantas_014",
+          "yuhmu": "Hogan’ài",
+          "spanish": "Epazote",
+          "context": "Esta hierba aromática se agrega a algunos platillos para darles sabor: «Hogan’ài»."
+        },
+        {
+          "id": "plantas_015",
+          "yuhmu": "’Míni",
+          "spanish": "Espina",
+          "context": "Al tocar algunas plantas, hay que tener cuidado con esta punta rígida: «’Míni»."
+        },
+        {
+          "id": "plantas_016",
+          "yuhmu": "Méphe",
+          "spanish": "Estafiate",
+          "context": "Esta planta aromática se utiliza tradicionalmente en infusiones: «Méphe»."
+        },
+        {
+          "id": "plantas_017",
+          "yuhmu": "Dòni",
+          "spanish": "Flor",
+          "context": "En el jardín, esta parte colorida de la planta atrae a las abejas: «Dòni»."
+        },
+        {
+          "id": "plantas_018",
+          "yuhmu": "Ts’ünkhu̱",
+          "spanish": "Frijol",
+          "context": "Estas semillas se cocinan y acompañan muchos platillos: «Ts’ünkhu̱»."
+        },
+        {
+          "id": "plantas_019",
+          "yuhmu": "K’òtse̱",
+          "spanish": "Fruto (rojo) de encino no comestible",
+          "context": "En el encino puede crecer este fruto rojo que no se debe comer: «K’òtse̱»."
+        },
+        {
+          "id": "plantas_020",
+          "yuhmu": "Tsháxi",
+          "spanish": "Grano",
+          "context": "Cada pequeña semilla de un cereal, como el maíz, es un «Tsháxi»."
+        },
+        {
+          "id": "plantas_021",
+          "yuhmu": "’Äwxi",
+          "spanish": "Habas",
+          "context": "Estas semillas verdes o secas se cocinan en distintos guisos: «’Äwxi»."
+        },
+        {
+          "id": "plantas_022",
+          "yuhmu": "K’àni",
+          "spanish": "Hierba",
+          "context": "En el jardín crecen plantas pequeñas y verdes como esta: «K’àni»."
+        },
+        {
+          "id": "plantas_023",
+          "yuhmu": "Khó",
+          "spanish": "Hongo",
+          "context": "Después de la lluvia, puede aparecer este organismo en lugares húmedos: «Khó»."
+        },
+        {
+          "id": "plantas_024",
+          "yuhmu": "Nyǎk’ü",
+          "spanish": "Huauzontle",
+          "context": "Esta planta comestible se prepara en platillos tradicionales, por ejemplo capeada: «Nyǎk’ü»."
+        },
+        {
+          "id": "plantas_025",
+          "yuhmu": "Bépe",
+          "spanish": "Jaltomate",
+          "context": "Este fruto pequeño se utiliza en algunas preparaciones de la cocina: «Bépe»."
+        },
+        {
+          "id": "plantas_026",
+          "yuhmu": "Nděroxi",
+          "spanish": "Lenteja",
+          "context": "Esta pequeña semilla redonda se cocina en sopa: «Nděroxi»."
+        },
+        {
+          "id": "plantas_027",
+          "yuhmu": "’Wàda",
+          "spanish": "Maguey",
+          "context": "De esta planta de hojas largas y gruesas se pueden obtener fibras y aguamiel: «’Wàda»."
+        },
+        {
+          "id": "plantas_028",
+          "yuhmu": "Dèthä",
+          "spanish": "Maíz",
+          "context": "En la milpa crece este grano que después se muele para preparar masa: «Dèthä»."
+        },
+        {
+          "id": "plantas_029",
+          "yuhmu": "Thá",
+          "spanish": "Mazorca",
+          "context": "Cuando el maíz crece unido en una estructura cubierta por hojas, tenemos una «Thá»."
+        },
+        {
+          "id": "plantas_030",
+          "yuhmu": "Thúhü",
+          "spanish": "Milpa",
+          "context": "En este terreno se siembra y cuida el maíz y otros cultivos: «Thúhü»."
+        },
+        {
+          "id": "plantas_031",
+          "yuhmu": "’Íxi",
+          "spanish": "Naranja, agrio",
+          "context": "Este cítrico tiene sabor ácido y se utiliza para sazonar alimentos: «’Íxi»."
+        },
+        {
+          "id": "plantas_032",
+          "yuhmu": "Xát’ä",
+          "spanish": "Nopal",
+          "context": "Esta planta tiene pencas verdes y puede tener espinas: «Xát’ä»."
+        },
+        {
+          "id": "plantas_033",
+          "yuhmu": "K’ápuxü",
+          "spanish": "Papa",
+          "context": "Esta raíz comestible se puede cocer, freír o preparar en puré: «K’ápuxü»."
+        },
+        {
+          "id": "plantas_034",
+          "yuhmu": "Bópo",
+          "spanish": "Prementina (sabia)",
+          "context": "En algunas plantas se obtiene esta sustancia que se utiliza tradicionalmente: «Bópo»."
+        },
+        {
+          "id": "plantas_035",
+          "yuhmu": "Gink’ani",
+          "spanish": "Quelite",
+          "context": "En la cocina tradicional se recolectan y cocinan estas hojas tiernas: «Gink’ani»."
+        },
+        {
+          "id": "plantas_036",
+          "yuhmu": "K’úkha",
+          "spanish": "Quelite de trigo",
+          "context": "En algunos campos crece esta planta tierna entre los cultivos de trigo: «K’úkha»."
+        },
+        {
+          "id": "plantas_037",
+          "yuhmu": "Xitha",
+          "spanish": "Quintonil",
+          "context": "Estas hojas verdes se cocinan como quelites en distintos guisos: «Xitha»."
+        },
+        {
+          "id": "plantas_038",
+          "yuhmu": "’Yé̱za",
+          "spanish": "Rama",
+          "context": "Es la parte que sale del tronco y sostiene hojas o frutos: «’Yé̱za»."
+        },
+        {
+          "id": "plantas_039",
+          "yuhmu": "Thé",
+          "spanish": "Surco",
+          "context": "En la tierra preparada, las semillas se colocan dentro de una línea larga: «Thé»."
+        },
+        {
+          "id": "plantas_040",
+          "yuhmu": "Pè̱ni",
+          "spanish": "Tejocote",
+          "context": "Este fruto pequeño y redondo se usa en preparaciones tradicionales, como el ponche: «Pè̱ni»."
+        },
+        {
+          "id": "plantas_041",
+          "yuhmu": "Thí",
+          "spanish": "Tlacote, tipo de grano",
+          "context": "En la cosecha se identifica este tipo particular de semilla: «Thí»."
+        },
+        {
+          "id": "plantas_042",
+          "yuhmu": "T’èi",
+          "spanish": "Trigo",
+          "context": "De este cereal se obtiene harina para preparar pan: «T’èi»."
+        },
+        {
+          "id": "plantas_043",
+          "yuhmu": "Káhä",
+          "spanish": "Tuna",
+          "context": "Este fruto crece en el nopal y tiene una pulpa dulce: «Káhä»."
+        },
+        {
+          "id": "plantas_044",
+          "yuhmu": "Xithä",
+          "spanish": "Zacate de milpa",
+          "context": "En la milpa también crece esta hierba que puede utilizarse como forraje: «Xithä»."
+        },
+        {
+          "id": "plantas_045",
+          "yuhmu": "Müza",
+          "spanish": "Zapote",
+          "context": "Este fruto de pulpa dulce crece en un árbol: «Müza»."
+        }
+      ]
+    },
+    {
+      "id": "alimentos",
+      "title": "Alimentos",
+      "icon": "restaurant",
+      "words": [
+        {
+          "id": "alimentos_001",
+          "yuhmu": "’Asídi",
+          "spanish": "Aceite",
+          "context": "Para cocinar, agrego un poco de líquido graso a la sartén: «’Asídi»."
+        },
+        {
+          "id": "alimentos_002",
+          "yuhmu": "Déhe",
+          "spanish": "Agua",
+          "context": "Después de jugar, tengo sed. Busco «Déhe» para beber y refrescarme."
+        },
+        {
+          "id": "alimentos_003",
+          "yuhmu": "T’áphi",
+          "spanish": "Aguamiel",
+          "context": "Al extraer el líquido dulce del maguey, obtenemos «T’áphi»."
+        },
+        {
+          "id": "alimentos_004",
+          "yuhmu": "T’ěi",
+          "spanish": "Atole",
+          "context": "En una mañana fría, tomo esta bebida caliente preparada con masa: «T’ěi»."
+        },
+        {
+          "id": "alimentos_005",
+          "yuhmu": "’Asüga",
+          "spanish": "Azúcar",
+          "context": "Para endulzar una bebida, agrego una cucharadita de «’Asüga»."
+        },
+        {
+          "id": "alimentos_006",
+          "yuhmu": "Ngǒ",
+          "spanish": "Carne",
+          "context": "En la comida, algunas familias preparan este alimento que se obtiene de animales: «Ngǒ»."
+        },
+        {
+          "id": "alimentos_007",
+          "yuhmu": "Thu̱hu̱",
+          "spanish": "Comida",
+          "context": "Cuando llega la hora de comer, nos sentamos a compartir la «Thu̱hu̱»."
+        },
+        {
+          "id": "alimentos_008",
+          "yuhmu": "Ts’ápo",
+          "spanish": "Chicle",
+          "context": "Mastico esta golosina suave que se puede inflar en una burbuja: «Ts’ápo»."
+        },
+        {
+          "id": "alimentos_009",
+          "yuhmu": "Pít’i",
+          "spanish": "Chicharrón",
+          "context": "Este alimento crujiente se prepara friendo la piel de cerdo: «Pít’i»."
+        },
+        {
+          "id": "alimentos_010",
+          "yuhmu": "Dò’ni",
+          "spanish": "Huevo",
+          "context": "En el desayuno puedo preparar un alimento que pone la gallina: «Dò’ni»."
+        },
+        {
+          "id": "alimentos_011",
+          "yuhmu": "Khüni",
+          "spanish": "Masa",
+          "context": "Para hacer tortillas, primero se prepara una mezcla suave de maíz molido: «Khüni»."
+        },
+        {
+          "id": "alimentos_012",
+          "yuhmu": "Tshüni",
+          "spanish": "Nixtamal",
+          "context": "El maíz se cuece con cal y agua antes de molerlo; ese proceso produce «Tshüni»."
+        },
+        {
+          "id": "alimentos_013",
+          "yuhmu": "Hmè̱mpho̱",
+          "spanish": "Pan",
+          "context": "En la panadería compramos una pieza horneada para acompañar el desayuno: «Hmè̱mpho̱»."
+        },
+        {
+          "id": "alimentos_014",
+          "yuhmu": "’Mót’i",
+          "spanish": "Pinole",
+          "context": "Esta preparación tradicional se elabora con maíz tostado y molido: «’Mót’i»."
+        },
+        {
+          "id": "alimentos_015",
+          "yuhmu": "Tshěi",
+          "spanish": "Pulque",
+          "context": "Esta bebida tradicional se obtiene al fermentar el aguamiel del maguey: «Tshěi»."
+        },
+        {
+          "id": "alimentos_016",
+          "yuhmu": "’Úthe",
+          "spanish": "Refresco",
+          "context": "Cuando hace calor, algunas personas toman una bebida dulce y con gas: «’Úthe»."
+        },
+        {
+          "id": "alimentos_017",
+          "yuhmu": "’Ú",
+          "spanish": "Sal",
+          "context": "Para dar sabor a la comida, agrego un poco de este condimento: «’Ú»."
+        },
+        {
+          "id": "alimentos_018",
+          "yuhmu": "Thědi",
+          "spanish": "Tamal",
+          "context": "En la fiesta, la abuela comparte «Thědi», envuelto en una hoja de maíz."
+        },
+        {
+          "id": "alimentos_019",
+          "yuhmu": "Gitshíphi",
+          "spanish": "Texate (agua de masa)",
+          "context": "Esta bebida se prepara con agua y masa, y se conoce como «Gitshíphi»."
+        },
+        {
+          "id": "alimentos_020",
+          "yuhmu": "Hmé",
+          "spanish": "Tortilla",
+          "context": "En la comida, acompaño los frijoles con «Hmé»."
+        }
+      ]
+    },
+    {
+      "id": "animales",
+      "title": "Animales",
+      "icon": "pets",
+      "words": [
+        {
+          "id": "animales_010",
+          "yuhmu": "Gáne",
+          "spanish": "Abeja",
+          "context": "Este insecto visita las flores y ayuda a polinizar las plantas: «Gáne»."
+        },
+        {
+          "id": "animales_017",
+          "yuhmu": "Nzùni",
+          "spanish": "Águila",
+          "context": "Esta ave rapaz vuela alto y tiene una vista muy aguda: «Nzùni»."
+        },
+        {
+          "id": "animales_018",
+          "yuhmu": "Méxe",
+          "spanish": "Araña",
+          "context": "Este animal de ocho patas teje una telaraña: «Méxe»."
+        },
+        {
+          "id": "animales_019",
+          "yuhmu": "’Áxnu",
+          "spanish": "Asno,burro",
+          "context": "Este animal de carga tiene orejas largas y puede ayudar a transportar cosas: «’Áxnu»."
+        },
+        {
+          "id": "animales_004",
+          "yuhmu": "Déti",
+          "spanish": "Borrego, algodón",
+          "context": "En el campo se cría este animal cuya lana se aprovecha: «Déti»."
+        },
+        {
+          "id": "animales_003",
+          "yuhmu": "Tóge",
+          "spanish": "Caballo",
+          "context": "Este animal tiene crin y se puede montar para viajar: «Tóge»."
+        },
+        {
+          "id": "animales_020",
+          "yuhmu": "Khwá",
+          "spanish": "Conejo",
+          "context": "Este animal de orejas largas salta y come hierbas: «Khwá»."
+        },
+        {
+          "id": "animales_021",
+          "yuhmu": "Nzùpa",
+          "spanish": "Chango, mono",
+          "context": "Este animal trepa árboles y tiene manos hábiles: «Nzùpa»."
+        },
+        {
+          "id": "animales_022",
+          "yuhmu": "T’äxi",
+          "spanish": "Chapulín",
+          "context": "Este insecto salta entre la hierba usando sus patas traseras: «T’äxi»."
+        },
+        {
+          "id": "animales_023",
+          "yuhmu": "Xán’we̱",
+          "spanish": "Chinche",
+          "context": "Este pequeño insecto puede vivir cerca de las personas y alimentarse de sangre: «Xán’we̱»."
+        },
+        {
+          "id": "animales_006",
+          "yuhmu": "Tsü’ni",
+          "spanish": "Gallina",
+          "context": "En el corral, esta ave pone huevos: «Tsü’ni»."
+        },
+        {
+          "id": "animales_007",
+          "yuhmu": "Tā’ni",
+          "spanish": "Gallo",
+          "context": "Al amanecer, esta ave canta para anunciar el nuevo día: «Tā’ni»."
+        },
+        {
+          "id": "animales_002",
+          "yuhmu": "Mixtu",
+          "spanish": "Gato",
+          "context": "Este animal doméstico maúlla y suele perseguir ratones: «Mixtu»."
+        },
+        {
+          "id": "animales_024",
+          "yuhmu": "Pè̱nts’u̱",
+          "spanish": "Gavilán",
+          "context": "Esta ave rapaz caza pequeños animales desde el aire: «Pè̱nts’u̱»."
+        },
+        {
+          "id": "animales_025",
+          "yuhmu": "Xákhu̱",
+          "spanish": "Hormiga",
+          "context": "Este insecto pequeño camina en grupo y puede cargar alimento: «Xákhu̱»."
+        },
+        {
+          "id": "animales_026",
+          "yuhmu": "Dé",
+          "spanish": "Liebre",
+          "context": "Este animal parecido al conejo corre muy rápido por el campo: «Dé»."
+        },
+        {
+          "id": "animales_027",
+          "yuhmu": "Bòt’o",
+          "spanish": "Liendre",
+          "context": "Es el huevo pequeño que ponen los piojos: «Bòt’o»."
+        },
+        {
+          "id": "animales_028",
+          "yuhmu": "Métse̱",
+          "spanish": "Lombriz",
+          "context": "Este animal alargado vive en la tierra húmeda y no tiene patas: «Métse̱»."
+        },
+        {
+          "id": "animales_029",
+          "yuhmu": "Gin’wë",
+          "spanish": "Mosca",
+          "context": "Este insecto vuela cerca de los alimentos y tiene dos alas: «Gin’wë»."
+        },
+        {
+          "id": "animales_030",
+          "yuhmu": "Pháni",
+          "spanish": "Mula",
+          "context": "Este animal de carga nace del cruce de una yegua y un burro: «Pháni»."
+        },
+        {
+          "id": "animales_031",
+          "yuhmu": "’Máphi",
+          "spanish": "Nido",
+          "context": "Las aves construyen este lugar para poner sus huevos y cuidar a sus crías: «’Máphi»."
+        },
+        {
+          "id": "animales_032",
+          "yuhmu": "Nts’ú̱",
+          "spanish": "Pájaro",
+          "context": "Este animal tiene plumas, alas y un pico; muchas especies cantan: «Nts’ú̱»."
+        },
+        {
+          "id": "animales_033",
+          "yuhmu": "Bádu",
+          "spanish": "Pato",
+          "context": "Esta ave acuática tiene pico ancho y patas palmeadas: «Bádu»."
+        },
+        {
+          "id": "animales_034",
+          "yuhmu": "Chik’yó",
+          "spanish": "Perrito",
+          "context": "Así llamamos con cariño a un perro pequeño: «Chik’yó»."
+        },
+        {
+          "id": "animales_001",
+          "yuhmu": "’Yó",
+          "spanish": "Perro",
+          "context": "Este animal doméstico ladra y puede acompañar a las personas: «’Yó»."
+        },
+        {
+          "id": "animales_035",
+          "yuhmu": "Hwá",
+          "spanish": "Pez",
+          "context": "Este animal vive en el agua y respira por branquias: «Hwá»."
+        },
+        {
+          "id": "animales_036",
+          "yuhmu": "Chik’óni",
+          "spanish": "Pollito",
+          "context": "Es la cría pequeña de la gallina: «Chik’óni»."
+        },
+        {
+          "id": "animales_014",
+          "yuhmu": "’Óni",
+          "spanish": "Pollo",
+          "context": "Es el ave joven que se cría en el corral y también se consume como alimento: «’Óni»."
+        },
+        {
+          "id": "animales_037",
+          "yuhmu": "Bízu",
+          "spanish": "Puerco",
+          "context": "Este animal de granja tiene hocico y suele revolcarse en el lodo: «Bízu»."
+        },
+        {
+          "id": "animales_038",
+          "yuhmu": "Túkúru",
+          "spanish": "Tecolote",
+          "context": "Esta ave nocturna tiene ojos grandes y sale a buscar alimento de noche: «Túkúru»."
+        },
+        {
+          "id": "animales_039",
+          "yuhmu": "Dàzü̱",
+          "spanish": "Tlacuache",
+          "context": "Este marsupial mexicano suele salir de noche y puede llevar a sus crías en una bolsa: «Dàzü̱»."
+        },
+        {
+          "id": "animales_040",
+          "yuhmu": "Tsu̱bi",
+          "spanish": "Tuza",
+          "context": "Este pequeño mamífero vive bajo tierra y hace túneles: «Tsu̱bi»."
+        },
+        {
+          "id": "animales_009",
+          "yuhmu": "K’èyä",
+          "spanish": "Víbora",
+          "context": "Este reptil alargado no tiene patas y se desplaza reptando: «K’èyä»."
+        }
+      ]
+    },
+    {
+      "id": "ropa",
+      "title": "Ropa y accesorios",
+      "icon": "checkroom",
+      "words": [
+        {
+          "id": "ropa_001",
+          "yuhmu": "Mphǒxo",
+          "spanish": "Anillo",
+          "context": "Esta joya pequeña se coloca en un dedo: «Mphǒxo»."
+        },
+        {
+          "id": "ropa_002",
+          "yuhmu": "Nt’óxo",
+          "spanish": "Anillo",
+          "context": "Esta joya pequeña se coloca en un dedo: «Nt’óxo»."
+        },
+        {
+          "id": "ropa_003",
+          "yuhmu": "Ts’úngü",
+          "spanish": "Arete",
+          "context": "Esta joya se coloca en la oreja: «Ts’úngü»."
+        },
+        {
+          "id": "ropa_004",
+          "yuhmu": "Rónkhwa",
+          "spanish": "Ayate",
+          "context": "Es una tela o bolsa tejida con fibras vegetales que puede usarse para cargar cosas: «Rónkhwa»."
+        },
+        {
+          "id": "ropa_005",
+          "yuhmu": "Ndu̱’t’i",
+          "spanish": "Botón",
+          "context": "Esta pieza pequeña sirve para cerrar una camisa o una prenda: «Ndu̱’t’i»."
+        },
+        {
+          "id": "ropa_006",
+          "yuhmu": "Nt’ókw’a",
+          "spanish": "Calcetín, media",
+          "context": "Me pongo esta prenda en el pie antes de colocarme los zapatos: «Nt’ókw’a»."
+        },
+        {
+          "id": "ropa_007",
+          "yuhmu": "Nkhó’kw’a",
+          "spanish": "Calzón (de manta)",
+          "context": "Es una prenda de vestir que cubre la parte inferior del cuerpo: «Nkhó’kw’a»."
+        },
+        {
+          "id": "ropa_008",
+          "yuhmu": "Khu̱t’i",
+          "spanish": "Ceñidor",
+          "context": "Esta banda o faja se coloca alrededor de la cintura: «Khu̱t’i»."
+        },
+        {
+          "id": "ropa_009",
+          "yuhmu": "Xí’yo",
+          "spanish": "Cobija",
+          "context": "Cuando hace frío, me cubro con esta prenda de tela: «Xí’yo»."
+        },
+        {
+          "id": "ropa_010",
+          "yuhmu": "’Mède",
+          "spanish": "Collar",
+          "context": "Esta joya se lleva alrededor del cuello: «’Mède»."
+        },
+        {
+          "id": "ropa_011",
+          "yuhmu": "Ngóde",
+          "spanish": "Falda, enagua",
+          "context": "Esta prenda cubre la cintura y las piernas, y suele usarse en la vestimenta tradicional: «Ngóde»."
+        },
+        {
+          "id": "ropa_012",
+          "yuhmu": "’Mè’mi",
+          "spanish": "Gabán, cotón",
+          "context": "Es una prenda gruesa que ayuda a protegerse del frío: «’Mè’mi»."
+        },
+        {
+          "id": "ropa_013",
+          "yuhmu": "Zéxthi",
+          "spanish": "Huarache",
+          "context": "Este tipo de calzado deja parte del pie al descubierto: «Zéxthi»."
+        },
+        {
+          "id": "ropa_014",
+          "yuhmu": "Bòxo",
+          "spanish": "Lana",
+          "context": "Esta fibra suave se obtiene principalmente del borrego y sirve para tejer ropa: «Bòxo»."
+        },
+        {
+          "id": "ropa_015",
+          "yuhmu": "M’ánt’i",
+          "spanish": "Pañal",
+          "context": "Esta prenda absorbe la humedad y se usa para cuidar a los bebés: «M’ánt’i»."
+        },
+        {
+          "id": "ropa_016",
+          "yuhmu": "Mphò’ye̱",
+          "spanish": "Pulsera",
+          "context": "Esta joya se coloca alrededor de la muñeca: «Mphò’ye̱»."
+        },
+        {
+          "id": "ropa_017",
+          "yuhmu": "Bǎyu",
+          "spanish": "Rebozo",
+          "context": "Esta prenda larga de tela puede usarse sobre los hombros o para cargar a un bebé: «Bǎyu»."
+        },
+        {
+          "id": "ropa_018",
+          "yuhmu": "Zéxo",
+          "spanish": "Ropa",
+          "context": "Antes de salir, elijo las prendas que me voy a poner: «Zéxo»."
+        },
+        {
+          "id": "ropa_019",
+          "yuhmu": "Phüi",
+          "spanish": "Sombrero",
+          "context": "Me lo pongo en la cabeza para protegerme del sol: «Phüi»."
+        }
+      ]
+    },
+    {
+      "id": "objetos",
+      "title": "Objetos",
+      "icon": "home",
+      "words": [
+        {
+          "id": "objetos_017",
+          "yuhmu": "Nhüni",
+          "spanish": "Almohada",
+          "context": "Al dormir, apoyo la cabeza sobre una «Nhüni»."
+        },
+        {
+          "id": "objetos_018",
+          "yuhmu": "Nt’u’asüga",
+          "spanish": "Azucarera",
+          "context": "En la mesa guardamos el azúcar dentro de una «Nt’u’asüga»."
+        },
+        {
+          "id": "objetos_019",
+          "yuhmu": "Hwànza",
+          "spanish": "Batea de madera",
+          "context": "En algunas cocinas se utiliza este recipiente amplio de madera: «Hwànza»."
+        },
+        {
+          "id": "objetos_020",
+          "yuhmu": "’Màda",
+          "spanish": "Bicol (tipo de cántaro)",
+          "context": "Es un recipiente de barro usado para guardar o transportar líquidos: «’Màda»."
+        },
+        {
+          "id": "objetos_021",
+          "yuhmu": "Máda",
+          "spanish": "Cajete",
+          "context": "En la cocina tradicional se usa este recipiente pequeño: «Máda»."
+        },
+        {
+          "id": "objetos_022",
+          "yuhmu": "Xǒni",
+          "spanish": "Cántaro",
+          "context": "Para transportar agua, puedo utilizar un recipiente de cuello estrecho: «Xǒni»."
+        },
+        {
+          "id": "objetos_001",
+          "yuhmu": "Ngǘ",
+          "spanish": "Casa",
+          "context": "Al terminar el día, regreso al lugar donde vivo: mi «Ngǘ»."
+        },
+        {
+          "id": "objetos_023",
+          "yuhmu": "Gasewě̱ra",
+          "spanish": "Cazuela",
+          "context": "En la estufa preparo guisos dentro de una «Gasewě̱ra»."
+        },
+        {
+          "id": "objetos_024",
+          "yuhmu": "Gosïna",
+          "spanish": "Cocina",
+          "context": "Es el espacio de la casa donde preparamos los alimentos: la «Gosïna»."
+        },
+        {
+          "id": "objetos_002",
+          "yuhmu": "Dò’yo",
+          "spanish": "Comal",
+          "context": "Para calentar tortillas, las pongo sobre el «Dò’yo»."
+        },
+        {
+          "id": "objetos_025",
+          "yuhmu": "Mǒgwa",
+          "spanish": "Cuchara",
+          "context": "Con este utensilio puedo tomar sopa: la «Mǒgwa»."
+        },
+        {
+          "id": "objetos_026",
+          "yuhmu": "Ndòte mǒgwa",
+          "spanish": "Cucharón, cuchara grande",
+          "context": "Para servir sopa en un plato, uso una cuchara grande: el «Ndòte mǒgwa»."
+        },
+        {
+          "id": "objetos_027",
+          "yuhmu": "Kwhài",
+          "spanish": "Cuchillo",
+          "context": "Para cortar verduras y otros alimentos, utilizo un «Kwhài»."
+        },
+        {
+          "id": "objetos_028",
+          "yuhmu": "’Mèthi",
+          "spanish": "Chiquepextle",
+          "context": "Es un cesto o recipiente tejido que se utiliza para guardar o transportar productos: «’Mèthi»."
+        },
+        {
+          "id": "objetos_029",
+          "yuhmu": "’Mòts’e",
+          "spanish": "Chiquihuite",
+          "context": "En el mercado, puedo llevar frutas o tortillas dentro de un cesto tejido: «’Mòts’e»."
+        },
+        {
+          "id": "objetos_030",
+          "yuhmu": "Nirěde",
+          "spanish": "Escalera",
+          "context": "Para alcanzar un lugar alto, subo por una «Nirěde»."
+        },
+        {
+          "id": "objetos_031",
+          "yuhmu": "Réndo",
+          "spanish": "Escalón",
+          "context": "Cada paso elevado de una escalera es un «Réndo»."
+        },
+        {
+          "id": "objetos_032",
+          "yuhmu": "Ntsháni",
+          "spanish": "Escarmenador (tipo de peine)",
+          "context": "Para separar y acomodar fibras, se utiliza una herramienta parecida a un peine: «Ntsháni»."
+        },
+        {
+          "id": "objetos_033",
+          "yuhmu": "’Màxi",
+          "spanish": "Escoba",
+          "context": "Para limpiar el piso, barro con una «’Màxi»."
+        },
+        {
+          "id": "objetos_034",
+          "yuhmu": "Nihyěi",
+          "spanish": "Espejo",
+          "context": "Me miro la cara y el cabello en un «Nihyěi»."
+        },
+        {
+          "id": "objetos_035",
+          "yuhmu": "Xít’a",
+          "spanish": "Hamaca",
+          "context": "Para descansar, puedo acostarme en una cama colgante: «Xít’a»."
+        },
+        {
+          "id": "objetos_036",
+          "yuhmu": "Sáru",
+          "spanish": "Jarro",
+          "context": "Sirvo agua o atole en un recipiente con asa llamado «Sáru»."
+        },
+        {
+          "id": "objetos_037",
+          "yuhmu": "Xímo",
+          "spanish": "Jícara",
+          "context": "En algunas comunidades se usa este recipiente hecho de fruto seco para servir bebidas: «Xímo»."
+        },
+        {
+          "id": "objetos_038",
+          "yuhmu": "M’èni",
+          "spanish": "Lavadero",
+          "context": "En este lugar de la casa se lava la ropa: el «M’èni»."
+        },
+        {
+          "id": "objetos_005",
+          "yuhmu": "Ntshóki",
+          "spanish": "Llave",
+          "context": "Con esta herramienta abro o cierro una cerradura: la «Ntshóki»."
+        },
+        {
+          "id": "objetos_008",
+          "yuhmu": "Nikhüni",
+          "spanish": "Metate",
+          "context": "Para moler maíz, coloco los granos sobre una piedra plana llamada «Nikhüni»."
+        },
+        {
+          "id": "objetos_009",
+          "yuhmu": "Màndo",
+          "spanish": "Molcajete",
+          "context": "En este recipiente de piedra machaco chile y otros ingredientes: «Màndo»."
+        },
+        {
+          "id": "objetos_010",
+          "yuhmu": "Ts’èe",
+          "spanish": "Olla",
+          "context": "Para cocinar frijoles o caldo, uso una «Ts’èe»."
+        },
+        {
+          "id": "objetos_039",
+          "yuhmu": "Thí",
+          "spanish": "Patio",
+          "context": "En casa, los niños pueden jugar al aire libre en el «Thí»."
+        },
+        {
+          "id": "objetos_013",
+          "yuhmu": "Xíphi",
+          "spanish": "Petate",
+          "context": "Esta estera tejida puede colocarse en el suelo para sentarse o dormir: «Xíphi»."
+        },
+        {
+          "id": "objetos_014",
+          "yuhmu": "Mánza",
+          "spanish": "Plato",
+          "context": "Sirvo la comida en un «Mánza»."
+        },
+        {
+          "id": "objetos_040",
+          "yuhmu": "Nikhüt’i",
+          "spanish": "Puerta",
+          "context": "Para entrar o salir de una habitación, abro la «Nikhüt’i»."
+        },
+        {
+          "id": "objetos_041",
+          "yuhmu": "Nthá",
+          "spanish": "Sahumerio",
+          "context": "En algunas ceremonias se utiliza un recipiente para quemar copal: «Nthá»."
+        },
+        {
+          "id": "objetos_042",
+          "yuhmu": "Hyüi",
+          "spanish": "Tlecuil (tres piedras)",
+          "context": "En una cocina tradicional, tres piedras pueden sostener el recipiente sobre el fuego: «Hyüi»."
+        },
+        {
+          "id": "objetos_043",
+          "yuhmu": "Gǒspi",
+          "spanish": "Tlecuil, fogón",
+          "context": "En este lugar se enciende el fuego para cocinar: el «Gǒspi»."
+        },
+        {
+          "id": "objetos_044",
+          "yuhmu": "Túdi",
+          "spanish": "Vela",
+          "context": "Cuando se va la luz, puedo encender una «Túdi» para iluminar."
+        },
+        {
+          "id": "objetos_045",
+          "yuhmu": "Dòxito",
+          "spanish": "Vidrio, botella de vidrio",
+          "context": "Este material transparente se usa para fabricar ventanas y botellas: «Dòxito»."
+        },
+        {
+          "id": "objetos_046",
+          "yuhmu": "T’àbi",
+          "spanish": "Arado",
+          "context": "Esta herramienta se utiliza para abrir surcos y preparar la tierra: «T’àbi»."
+        },
+        {
+          "id": "objetos_047",
+          "yuhmu": "Mhmáspi",
+          "spanish": "Aventador",
+          "context": "En la cosecha, esta herramienta ayuda a separar el grano de la paja: «Mhmáspi»."
+        },
+        {
+          "id": "objetos_048",
+          "yuhmu": "Nthüne",
+          "spanish": "Bozal, tempoxa (tipo de bozal de red)",
+          "context": "Esta pieza se coloca en el hocico de un animal para controlar lo que puede morder: «Nthüne»."
+        },
+        {
+          "id": "objetos_049",
+          "yuhmu": "Théyä",
+          "spanish": "Carbón",
+          "context": "Este material negro se obtiene de la madera y puede usarse como combustible: «Théyä»."
+        },
+        {
+          "id": "objetos_050",
+          "yuhmu": "Nzăru",
+          "spanish": "Carro",
+          "context": "Este vehículo tiene ruedas y sirve para transportar personas o cosas: «Nzăru»."
+        },
+        {
+          "id": "objetos_051",
+          "yuhmu": "’Yüi",
+          "spanish": "Cigarro",
+          "context": "Es un producto de tabaco que se fuma; no es un objeto para niños: «’Yüi»."
+        },
+        {
+          "id": "objetos_052",
+          "yuhmu": "Gúxtha",
+          "spanish": "Costal",
+          "context": "En el campo, guardamos granos dentro de un saco grande: «Gúxtha»."
+        },
+        {
+          "id": "objetos_053",
+          "yuhmu": "’Mòts’e",
+          "spanish": "Costillas, huacal, chiquihuite",
+          "context": "Es una estructura de varas que sirve para cargar o guardar productos: «’Mòts’e»."
+        },
+        {
+          "id": "objetos_054",
+          "yuhmu": "Dóxo",
+          "spanish": "Chinamite",
+          "context": "Es un tejido o estructura tradicional hecho con varas para distintos usos: «Dóxo»."
+        },
+        {
+          "id": "objetos_055",
+          "yuhmu": "T’égi",
+          "spanish": "Fierro, campana",
+          "context": "Este objeto metálico puede producir un sonido fuerte al golpearlo: «T’égi»."
+        },
+        {
+          "id": "objetos_056",
+          "yuhmu": "Nt’èndo",
+          "spanish": "Honda",
+          "context": "Es un instrumento tradicional que se usa para lanzar pequeñas piedras; se estudia aquí como vocabulario cultural: «Nt’èndo»."
+        },
+        {
+          "id": "objetos_057",
+          "yuhmu": "T’èxu̱",
+          "spanish": "Hoz",
+          "context": "Esta herramienta curva se utiliza para cortar hierbas o tallos durante la cosecha: «T’èxu̱»."
+        },
+        {
+          "id": "objetos_058",
+          "yuhmu": "Nt’èni",
+          "spanish": "Juguete",
+          "context": "Los niños juegan y se divierten con un «Nt’èni»."
+        },
+        {
+          "id": "objetos_059",
+          "yuhmu": "Xáhi",
+          "spanish": "Lazo",
+          "context": "Con esta cuerda puedo amarrar o sujetar algo: «Xáhi»."
+        },
+        {
+          "id": "objetos_060",
+          "yuhmu": "Ndé",
+          "spanish": "Mecapal",
+          "context": "Es una banda que se coloca en la cabeza para ayudar a cargar peso: «Ndé»."
+        },
+        {
+          "id": "objetos_061",
+          "yuhmu": "Bǎra",
+          "spanish": "Pala",
+          "context": "Para mover tierra, arena o nieve, utilizo una «Bǎra»."
+        },
+        {
+          "id": "objetos_062",
+          "yuhmu": "Tsükwä",
+          "spanish": "Papel",
+          "context": "Para dibujar o escribir, necesito una hoja de «Tsükwä»."
+        },
+        {
+          "id": "objetos_063",
+          "yuhmu": "Nüni",
+          "spanish": "Pelota, algo redondo",
+          "context": "Los niños lanzan y atrapan este objeto redondo: «Nüni»."
+        },
+        {
+          "id": "objetos_064",
+          "yuhmu": "Nthóki",
+          "spanish": "Pizcalón (herramienta para la pizca)",
+          "context": "Durante la cosecha, se utiliza esta herramienta para ayudar a pizcar: «Nthóki»."
+        },
+        {
+          "id": "objetos_065",
+          "yuhmu": "T’ǒ",
+          "spanish": "Vara",
+          "context": "Es un palo largo y delgado que puede servir para apoyar o señalar: «T’ǒ»."
+        }
+      ]
+    },
+    {
+      "id": "verbos",
+      "title": "Verbos y acciones",
+      "icon": "directions_run",
+      "words": [
+        {
+          "id": "verbos_005",
+          "yuhmu": "Thě̱",
+          "spanish": "Agarrar",
+          "context": "Cuando tomo un lápiz con la mano, realizo la acción de «Thě̱»."
+        },
+        {
+          "id": "verbos_006",
+          "yuhmu": "Xǒni",
+          "spanish": "Apúrate",
+          "context": "Cuando vamos tarde, alguien puede decirme «Xǒni» para que vaya más rápido."
+        },
+        {
+          "id": "verbos_007",
+          "yuhmu": "Phóts’i",
+          "spanish": "Ayúdalo",
+          "context": "Si una persona necesita apoyo, puedo pedirle a alguien: «Phóts’i»."
+        },
+        {
+          "id": "verbos_001",
+          "yuhmu": "Nèi",
+          "spanish": "Bailar",
+          "context": "Cuando suena la música, muevo el cuerpo siguiendo el ritmo: «Nèi»."
+        },
+        {
+          "id": "verbos_008",
+          "yuhmu": "Gwǎnts’i",
+          "spanish": "Barbechar",
+          "context": "Antes de sembrar, el campesino prepara y remueve la tierra: «Gwǎnts’i»."
+        },
+        {
+          "id": "verbos_009",
+          "yuhmu": "Tsí",
+          "spanish": "Beber, tomar",
+          "context": "Cuando tengo sed, necesito «Tsí» agua."
+        },
+        {
+          "id": "verbos_010",
+          "yuhmu": "Tshógi",
+          "spanish": "Brincar",
+          "context": "Para pasar un charco sin pisarlo, puedo «Tshógi»."
+        },
+        {
+          "id": "verbos_002",
+          "yuhmu": "Tühü",
+          "spanish": "Cantar",
+          "context": "En una celebración, sigo la melodía usando mi voz: «Tühü»."
+        },
+        {
+          "id": "verbos_011",
+          "yuhmu": "Pède",
+          "spanish": "Contar",
+          "context": "Para saber cuántas semillas tengo, empiezo a «Pède»."
+        },
+        {
+          "id": "verbos_012",
+          "yuhmu": "’Wě̱di",
+          "spanish": "Coser, bordar",
+          "context": "Con aguja e hilo puedo unir tela o decorar una prenda: «’Wě̱di»."
+        },
+        {
+          "id": "verbos_013",
+          "yuhmu": "’Rǎni",
+          "spanish": "Cruzar",
+          "context": "Antes de llegar a la otra acera, debo «’Rǎni» la calle con cuidado."
+        },
+        {
+          "id": "verbos_014",
+          "yuhmu": "Tsògi",
+          "spanish": "Dejar",
+          "context": "Cuando termino de jugar, puedo «Tsògi» los juguetes en su lugar."
+        },
+        {
+          "id": "verbos_015",
+          "yuhmu": "Xíphi",
+          "spanish": "Dile",
+          "context": "Si quiero comunicarle algo a otra persona, puedo pedir: «Xíphi» que venga."
+        },
+        {
+          "id": "verbos_016",
+          "yuhmu": "Phòti",
+          "spanish": "Ensartar",
+          "context": "Para hacer un collar, paso cuentas por un hilo: «Phòti»."
+        },
+        {
+          "id": "verbos_017",
+          "yuhmu": "Pòts’i",
+          "spanish": "Envolver",
+          "context": "Antes de guardar un regalo, lo puedo «Pòts’i» con papel."
+        },
+        {
+          "id": "verbos_018",
+          "yuhmu": "’Yò’t’i",
+          "spanish": "Escribir",
+          "context": "Para hacer una nota, uso un lápiz y comienzo a «’Yò’t’i»."
+        },
+        {
+          "id": "verbos_019",
+          "yuhmu": "Tsògi",
+          "spanish": "Escupir",
+          "context": "Esta acción consiste en expulsar saliva por la boca: «Tsògi»."
+        },
+        {
+          "id": "verbos_020",
+          "yuhmu": "N’ò’t’i",
+          "spanish": "Está escribiendo",
+          "context": "Cuando una persona tiene un lápiz en la mano y forma palabras, «N’ò’t’i»."
+        },
+        {
+          "id": "verbos_021",
+          "yuhmu": "T’èmi",
+          "spanish": "Exprimir",
+          "context": "Para sacar el jugo de una naranja, tengo que «T’èmi» la fruta."
+        },
+        {
+          "id": "verbos_022",
+          "yuhmu": "Küni",
+          "spanish": "Moler",
+          "context": "Para convertir el maíz en masa, primero hay que «Küni» los granos."
+        },
+        {
+          "id": "verbos_023",
+          "yuhmu": "Tshǒpho",
+          "spanish": "Pizcar",
+          "context": "En la milpa, durante la cosecha, se puede «Tshǒpho» el maíz."
+        },
+        {
+          "id": "verbos_024",
+          "yuhmu": "Tàki",
+          "spanish": "Rascar",
+          "context": "Si me pica un brazo, puedo «Tàki» suavemente la piel."
+        },
+        {
+          "id": "verbos_025",
+          "yuhmu": "Pé",
+          "spanish": "Robar",
+          "context": "Tomar algo que pertenece a otra persona sin permiso es «Pé»; no está bien hacerlo."
+        },
+        {
+          "id": "verbos_026",
+          "yuhmu": "Hyět’i",
+          "spanish": "Segar",
+          "context": "Durante la cosecha, se puede «Hyět’i» el pasto o los tallos con una herramienta."
+        },
+        {
+          "id": "verbos_027",
+          "yuhmu": "’Wí",
+          "spanish": "Soñar",
+          "context": "Cuando duermo, mi mente puede imaginar escenas e historias: puedo «’Wí»."
+        },
+        {
+          "id": "verbos_028",
+          "yuhmu": "Kó’mi",
+          "spanish": "Tapar (olla, hoyo)",
+          "context": "Para que no entre polvo, puedo «Kó’mi» la olla con su tapa."
+        },
+        {
+          "id": "verbos_029",
+          "yuhmu": "Pé",
+          "spanish": "Tejer",
+          "context": "Con hilo o fibras puedo crear una tela o una prenda: «Pé»."
+        },
+        {
+          "id": "verbos_030",
+          "yuhmu": "Kwhádi",
+          "spanish": "Termina",
+          "context": "Cuando una actividad llega al final, alguien puede decir «Kwhádi»."
+        }
+      ]
+    },
+    {
+      "id": "colores",
+      "title": "Colores",
+      "icon": "palette",
+      "words": [
+        {
+          "id": "colores_003",
+          "yuhmu": "K’áxt’i",
+          "spanish": "Amarillo",
+          "context": "El sol y algunas flores tienen un color brillante como «K’áxt’i»."
+        },
+        {
+          "id": "colores_001",
+          "yuhmu": "T’àxi",
+          "spanish": "Blanco",
+          "context": "La nieve recién caída y algunas nubes son de color «T’àxi»."
+        },
+        {
+          "id": "colores_002",
+          "yuhmu": "Mbòi",
+          "spanish": "Negro",
+          "context": "La noche sin luz y el carbón tienen un tono «Mbòi»."
+        },
+        {
+          "id": "colores_004",
+          "yuhmu": "Nk’àngi",
+          "spanish": "Verde",
+          "context": "Las hojas de muchas plantas tienen este color: «Nk’àngi»."
+        }
+      ]
+    },
+    {
+      "id": "adjetivos",
+      "title": "Adjetivos",
+      "icon": "auto_awesome",
+      "words": [
+        {
+          "id": "adjetivos_001",
+          "yuhmu": "Hěts’i",
+          "spanish": "Alto (estatura)",
+          "context": "Cuando una persona alcanza mucha altura en comparación con otras, podemos decir que es «Hěts’i»."
+        },
+        {
+          "id": "adjetivos_008",
+          "yuhmu": "Pá",
+          "spanish": "Caliente, día",
+          "context": "En un día con mucho sol, el ambiente puede sentirse «Pá»."
+        },
+        {
+          "id": "adjetivos_004",
+          "yuhmu": "Chitépi",
+          "spanish": "Pequeño",
+          "context": "Un insecto es mucho más «Chitépi» que una persona."
+        },
+        {
+          "id": "adjetivos_003",
+          "yuhmu": "Ndòte̱",
+          "spanish": "Grande",
+          "context": "Un elefante es un animal «Ndòte̱» comparado con un ratón."
+        },
+        {
+          "id": "adjetivos_009",
+          "yuhmu": "Pidi",
+          "spanish": "Grueso",
+          "context": "Un tronco ancho puede describirse como «Pidi»."
+        },
+        {
+          "id": "adjetivos_010",
+          "yuhmu": "’Rà’yo",
+          "spanish": "Nuevo",
+          "context": "Cuando algo acaba de comprarse y todavía no se ha usado, es «’Rà’yo»."
+        },
+        {
+          "id": "adjetivos_011",
+          "yuhmu": "Ntsànt’i",
+          "spanish": "Redondo u ovalado",
+          "context": "Una pelota tiene una forma «Ntsànt’i»."
+        },
+        {
+          "id": "adjetivos_012",
+          "yuhmu": "Kühi",
+          "spanish": "Sabroso",
+          "context": "Cuando una comida tiene muy buen sabor, decimos que está «Kühi»."
+        }
+      ]
+    },
+    {
+      "id": "clima",
+      "title": "Clima y entorno",
+      "icon": "cloud",
+      "words": [
+        {
+          "id": "clima_001",
+          "yuhmu": "Mbǒ",
+          "spanish": "Adentro",
+          "context": "Cuando entro a casa, ya no estoy afuera: estoy «Mbǒ»."
+        },
+        {
+          "id": "clima_002",
+          "yuhmu": "’Óki",
+          "spanish": "Agujero, hoyo",
+          "context": "Si la tierra tiene una abertura profunda, encontramos un «’Óki»."
+        },
+        {
+          "id": "clima_003",
+          "yuhmu": "’Měkhu̱ni̱",
+          "spanish": "Arcoíris",
+          "context": "Después de la lluvia, a veces aparece en el cielo una franja de muchos colores: el «’Měkhu̱ni̱»."
+        },
+        {
+          "id": "clima_004",
+          "yuhmu": "’Mòmü",
+          "spanish": "Arena",
+          "context": "En la orilla del río o en la playa puedo encontrar pequeños granos de roca: la «’Mòmü»."
+        },
+        {
+          "id": "clima_005",
+          "yuhmu": "’Yǘ",
+          "spanish": "Camino",
+          "context": "Para llegar de mi casa a la escuela, sigo un «’Yǘ»."
+        },
+        {
+          "id": "clima_006",
+          "yuhmu": "’Mòspi",
+          "spanish": "Ceniza",
+          "context": "Después de que la madera se quema, queda un polvo gris llamado «’Mòspi»."
+        },
+        {
+          "id": "clima_007",
+          "yuhmu": "T’òho̱",
+          "spanish": "Cerro",
+          "context": "Cerca de Ixtenco podemos ver una elevación natural del terreno: un «T’òho̱»."
+        },
+        {
+          "id": "clima_008",
+          "yuhmu": "Mahěts’i",
+          "spanish": "Cielo",
+          "context": "Durante el día miro hacia arriba y veo las nubes en el «Mahěts’i»."
+        },
+        {
+          "id": "clima_009",
+          "yuhmu": "Phúgi",
+          "spanish": "Espuma",
+          "context": "Al batir jabón o cuando el agua cae con fuerza, se forman burbujas: la «Phúgi»."
+        },
+        {
+          "id": "clima_010",
+          "yuhmu": "Tsó̱",
+          "spanish": "Estrella",
+          "context": "Por la noche, un punto brillante que vemos en el espacio es una «Tsó̱»."
+        },
+        {
+          "id": "clima_011",
+          "yuhmu": "Tsé̱",
+          "spanish": "Frío, nieve, hielo",
+          "context": "Cuando baja mucho la temperatura, sentimos «Tsé̱» y el agua puede convertirse en hielo."
+        },
+        {
+          "id": "clima_012",
+          "yuhmu": "Zàbi",
+          "spanish": "Fuente",
+          "context": "En una plaza, el agua puede salir de una estructura decorativa llamada «Zàbi»."
+        },
+        {
+          "id": "clima_013",
+          "yuhmu": "Hyěi",
+          "spanish": "Hoyo",
+          "context": "Si el suelo tiene un espacio vacío o una cavidad, hay un «Hyěi»."
+        },
+        {
+          "id": "clima_014",
+          "yuhmu": "Níkhä",
+          "spanish": "Iglesia",
+          "context": "En muchas comunidades, este edificio se utiliza para las celebraciones religiosas: la «Níkhä»."
+        },
+        {
+          "id": "clima_015",
+          "yuhmu": "Tsìbi",
+          "spanish": "Lumbre",
+          "context": "Para cocinar en una fogata, necesitamos encender la «Tsìbi»."
+        },
+        {
+          "id": "clima_016",
+          "yuhmu": "’Mátha",
+          "spanish": "Llano",
+          "context": "Una extensión amplia de terreno sin grandes elevaciones es un «’Mátha»."
+        },
+        {
+          "id": "clima_017",
+          "yuhmu": "Din’wài",
+          "spanish": "Llueve",
+          "context": "Cuando caen gotas de agua de las nubes, decimos que «Din’wài»."
+        },
+        {
+          "id": "clima_018",
+          "yuhmu": "’Yè",
+          "spanish": "Lluvia",
+          "context": "Llevo paraguas cuando caen gotas de agua de las nubes: la «’Yè»."
+        },
+        {
+          "id": "clima_019",
+          "yuhmu": "Zànä",
+          "spanish": "Luna, mes",
+          "context": "Por la noche podemos ver este astro que cambia de apariencia durante el mes: la «Zànä»."
+        },
+        {
+          "id": "clima_020",
+          "yuhmu": "Güi",
+          "spanish": "Nube",
+          "context": "Una masa blanca o gris de vapor de agua flota en el cielo: una «Güi»."
+        },
+        {
+          "id": "clima_021",
+          "yuhmu": "Dó",
+          "spanish": "Piedra",
+          "context": "En el camino encuentro un fragmento duro de roca: una «Dó»."
+        },
+        {
+          "id": "clima_022",
+          "yuhmu": "Xáwe̱",
+          "spanish": "Poza, laguna para almacenar agua (jagüey)",
+          "context": "En el campo, una pequeña laguna almacena agua de lluvia: una «Xáwe̱»."
+        },
+        {
+          "id": "clima_023",
+          "yuhmu": "Khu̱ts’i",
+          "spanish": "Pozo",
+          "context": "Para sacar agua del subsuelo, algunas comunidades construyen un «Khu̱ts’i»."
+        },
+        {
+          "id": "clima_024",
+          "yuhmu": "Hníni",
+          "spanish": "Pueblo",
+          "context": "Ixtenco es un ejemplo de un «Hníni», donde viven familias y hay calles y casas."
+        },
+        {
+          "id": "clima_025",
+          "yuhmu": "Hwèi",
+          "spanish": "Relámpago, rayo",
+          "context": "Durante una tormenta, un destello brillante ilumina el cielo: un «Hwèi»."
+        },
+        {
+          "id": "clima_026",
+          "yuhmu": "Hyádi",
+          "spanish": "Sol",
+          "context": "Durante el día, el astro que nos da luz y calor es el «Hyádi»."
+        },
+        {
+          "id": "clima_027",
+          "yuhmu": "Hòi",
+          "spanish": "Tierra",
+          "context": "Es el suelo donde crecen las plantas y caminamos: «Hòi»."
+        },
+        {
+          "id": "clima_028",
+          "yuhmu": "Nhyàdi",
+          "spanish": "Tizne",
+          "context": "El humo puede dejar una mancha negra en una olla o pared: el «Nhyàdi»."
+        },
+        {
+          "id": "clima_029",
+          "yuhmu": "Ndáhi",
+          "spanish": "Viento, aire",
+          "context": "Cuando las hojas se mueven sin que nadie las toque, sentimos el «Ndáhi»."
+        }
+      ]
+    },
+    {
+      "id": "articulos",
+      "title": "Artículos y expresiones",
+      "icon": "menu_book",
+      "words": [
+        {
+          "id": "articulos_001",
+          "yuhmu": "Rà ngǔ",
+          "spanish": "La casa",
+          "context": "Cuando hablo del lugar donde vivo, uso la expresión «Rà ngǔ».",
+          "note": "Raíz sustantiva documentada: ngǔ (casa)."
+        },
+        {
+          "id": "articulos_002",
+          "yuhmu": "Rà dòni",
+          "spanish": "La flor",
+          "context": "Cuando describo la parte colorida de una planta, uso la expresión «Rà dòni».",
+          "note": "Raíz sustantiva documentada: dòni (flor)."
+        },
+        {
+          "id": "articulos_003",
+          "yuhmu": "Rà nikhǔni",
+          "spanish": "El metate",
+          "context": "Al hablar de la piedra donde se muele el maíz, uso la expresión «Rà nikhǔni».",
+          "note": "Raíz sustantiva documentada: nikhǔni (metate)."
+        },
+        {
+          "id": "articulos_004",
+          "yuhmu": "Rà ’ó",
+          "spanish": "La pulga",
+          "context": "Cuando nombro al pequeño insecto que puede vivir en el pelaje de los animales, uso «Rà ’ó».",
+          "note": "Raíz sustantiva documentada: ’ó (pulga)."
+        },
+        {
+          "id": "articulos_005",
+          "yuhmu": "Rà ’yě",
+          "spanish": "La lluvia",
+          "context": "Cuando caen gotas de las nubes, uso la expresión «Rà ’yě».",
+          "note": "Raíz sustantiva documentada: ’yě (lluvia)."
+        },
+        {
+          "id": "articulos_006",
+          "yuhmu": "Rà ts’ii",
+          "spanish": "El diente",
+          "context": "Cuando hablo de una pieza que sirve para masticar, uso «Rà ts’ii»."
+        },
+        {
+          "id": "articulos_007",
+          "yuhmu": "Rà nikhüni",
+          "spanish": "El metate",
+          "context": "Al hablar de la piedra donde se muele el maíz, uso la expresión «Rà nikhüni»."
+        },
+        {
+          "id": "articulos_008",
+          "yuhmu": "Rà dó",
+          "spanish": "El ojo",
+          "context": "Cuando nombro el órgano con el que veo, uso «Rà dó»."
+        },
+        {
+          "id": "articulos_009",
+          "yuhmu": "Rà bádu",
+          "spanish": "El pato",
+          "context": "Cuando hablo del ave que nada y tiene pico ancho, uso «Rà bádu»."
+        },
+        {
+          "id": "articulos_010",
+          "yuhmu": "Rà ’yó",
+          "spanish": "El perro",
+          "context": "Cuando nombro al animal doméstico que ladra, uso «Rà ’yó»."
+        },
+        {
+          "id": "articulos_011",
+          "yuhmu": "Rà ’mót’i",
+          "spanish": "El pinole",
+          "context": "Cuando hablo del alimento hecho con maíz tostado y molido, uso «Rà ’mót’i»."
+        },
+        {
+          "id": "articulos_012",
+          "yuhmu": "Rà ’óni",
+          "spanish": "El pollo",
+          "context": "Cuando nombro al ave joven que se cría en el corral, uso «Rà ’óni»."
+        },
+        {
+          "id": "articulos_013",
+          "yuhmu": "Rà",
+          "spanish": "El, la",
+          "context": "En Yhụmụ, esta forma ayuda a acompañar un sustantivo con artículo: «Rà»."
+        },
+        {
+          "id": "articulos_014",
+          "yuhmu": "Rà ’mòmü",
+          "spanish": "La arena",
+          "context": "Cuando nombro los granitos que hay en la playa o en el suelo, uso «Rà ’mòmü»."
+        },
+        {
+          "id": "articulos_015",
+          "yuhmu": "Rà yǎ",
+          "spanish": "La cabeza",
+          "context": "Cuando hablo de la parte del cuerpo que protege el cerebro, uso «Rà yǎ»."
+        },
+        {
+          "id": "articulos_016",
+          "yuhmu": "Rà ngǘ",
+          "spanish": "La casa",
+          "context": "Cuando hablo del lugar donde vivo, uso la expresión «Rà ngǘ»."
+        },
+        {
+          "id": "articulos_017",
+          "yuhmu": "Rà ’mòspi",
+          "spanish": "La ceniza",
+          "context": "Cuando nombro el polvo que queda después de quemar madera, uso «Rà ’mòspi»."
+        },
+        {
+          "id": "articulos_018",
+          "yuhmu": "Rà ’màxi",
+          "spanish": "La escoba",
+          "context": "Cuando hablo del objeto que uso para barrer, uso «Rà ’màxi»."
+        },
+        {
+          "id": "articulos_019",
+          "yuhmu": "Rà tsó̱",
+          "spanish": "La estrella",
+          "context": "Cuando nombro el punto brillante que veo de noche, uso «Rà tsó̱»."
+        },
+        {
+          "id": "articulos_020",
+          "yuhmu": "Rà dòni",
+          "spanish": "La flor",
+          "context": "Cuando describo la parte colorida de una planta, uso la expresión «Rà dòni»."
+        },
+        {
+          "id": "articulos_021",
+          "yuhmu": "Rà tsü’ni",
+          "spanish": "La gallina",
+          "context": "Cuando hablo del ave que pone huevos, uso «Rà tsü’ni»."
+        },
+        {
+          "id": "articulos_022",
+          "yuhmu": "Rà ’yè",
+          "spanish": "La lluvia",
+          "context": "Cuando caen gotas de las nubes, uso la expresión «Rà ’yè»."
+        },
+        {
+          "id": "articulos_023",
+          "yuhmu": "Rà ’yé̱",
+          "spanish": "La mano",
+          "context": "Cuando nombro la parte del cuerpo con la que tomo objetos, uso «Rà ’yé̱»."
+        },
+        {
+          "id": "articulos_024",
+          "yuhmu": "Rà ’ixi",
+          "spanish": "La naranja",
+          "context": "Cuando hablo del fruto cítrico de color naranja, uso «Rà ’ixi»."
+        },
+        {
+          "id": "articulos_025",
+          "yuhmu": "Rà ’ó",
+          "spanish": "La pulga",
+          "context": "Cuando nombro al pequeño insecto que puede vivir en el pelaje de los animales, uso «Rà ’ó»."
+        },
+        {
+          "id": "articulos_026",
+          "yuhmu": "Rà ’yá",
+          "spanish": "La pus",
+          "context": "En vocabulario del cuerpo, así se nombra el líquido que puede aparecer en una herida infectada: «Rà ’yá»."
+        },
+        {
+          "id": "articulos_027",
+          "yuhmu": "Rà ’yü̱",
+          "spanish": "La raíz",
+          "context": "Cuando nombro la parte de una planta que absorbe agua del suelo, uso «Rà ’yü̱»."
+        },
+        {
+          "id": "articulos_028",
+          "yuhmu": "Rà ’ú",
+          "spanish": "La sal",
+          "context": "Cuando hablo del condimento que da sabor a la comida, uso «Rà ’ú»."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+﻿ID,Categoría,Español,Yhụmụ,Archivo de audio,Criterio de asociación,Estado,Observación
+numeros_001,Números,Uno,N’á,Audio/numeros/1.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_002,Números,Dos,Yóho,Audio/numeros/2.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_003,Números,Tres,Hyǘ,Audio/numeros/3.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_004,Números,Cuatro,Gǒho,Audio/numeros/4.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_005,Números,Cinco,Kú̱t’a,Audio/numeros/5.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_006,Números,Seis,’Ráto,Audio/numeros/6.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_007,Números,Siete,Yòto,Audio/numeros/7.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_008,Números,Ocho,Hyä́to,Audio/numeros/8.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_009,Números,Nueve,Gǔ̱to,Audio/numeros/9.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_010,Números,Diez,’Ré̱t’a,Audio/numeros/10.m4a,Número por significado,Asociado,Relación explícita entre la palabra española y el archivo numérico.
+numeros_011,Números,Once,’Ré̱t’a ma ’rá,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_012,Números,Doce,’Ré̱t’a ma yó,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_013,Números,Trece,’Ré̱t’a ma hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_014,Números,Catorce,’Ré̱t’a ma gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_015,Números,Quince,’Ré̱t’a ma kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_016,Números,Dieciséis,’Ré̱t’a ma ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_017,Números,Diecisiete,’Ré̱t’a ma yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_018,Números,Dieciocho,’Ré̱t’a ma hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_019,Números,Diecinueve,’Ré̱t’a ma gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_020,Números,Veinte,’Róte,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_029,Números,Veintiuno,’Róte ma ’rá,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_030,Números,Veintidós,’Róte ma yó,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_031,Números,Veintitrés,’Róte ma hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_032,Números,Veinticuatro,’Róte ma gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_033,Números,Veinticinco,’Róte ma kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_034,Números,Veintiséis,’Róte ma ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_035,Números,Veintisiete,’Róte ma yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_036,Números,Veintiocho,’Róte ma hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_037,Números,Veintinueve,’Róte ma gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_021,Números,Treinta,’Róte ma ’Ré̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_038,Números,Treinta y uno,’Róte ma ’ré̱t’a n’á,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_039,Números,Treinta y dos,’Róte ma ’ré̱t’a yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_040,Números,Treinta y tres,’Róte ma ’ré̱t’a hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_041,Números,Treinta y cuatro,’Róte ma ’ré̱t’a gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_042,Números,Treinta y cinco,’Róte ma ’ré̱t’a kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_043,Números,Treinta y seis,’Róte ma ’ré̱t’a ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_044,Números,Treinta y siete,’Róte ma ’ré̱t’a yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_045,Números,Treinta y ocho,’Róte ma ’ré̱t’a hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_046,Números,Treinta y nueve,’Róte ma ’ré̱t’a gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_022,Números,Cuarenta,Yóho i ’róte,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_047,Números,Cuarenta y uno,Yóho i ’róte n’á,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_048,Números,Cuarenta y dos,Yóho i ’róte yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_049,Números,Cuarenta y tres,Yóho i ’róte hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_050,Números,Cuarenta y cuatro,Yóho i ’róte gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_051,Números,Cuarenta y cinco,Yóho i ’róte kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_052,Números,Cuarenta y seis,Yóho i ’róte ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_053,Números,Cuarenta y siete,Yóho i ’róte yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_054,Números,Cuarenta y ocho,Yóho i ’róte hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_055,Números,Cuarenta y nueve,Yóho i ’róte gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_023,Números,Cincuenta,Ngú̱pho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_056,Números,Cincuenta y uno,Ngú̱pho ma ’ná,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_057,Números,Cincuenta y dos,Ngú̱pho ma yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_058,Números,Cincuenta y tres,Ngú̱pho ma hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_059,Números,Cincuenta y cuatro,Ngú̱pho ma gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_060,Números,Cincuenta y cinco,Ngú̱pho ma kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_061,Números,Cincuenta y seis,Ngú̱pho ma ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_062,Números,Cincuenta y siete,Ngú̱pho ma yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_063,Números,Cincuenta y ocho,Ngú̱pho ma hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_064,Números,Cincuenta y nueve,Ngú̱pho ma gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_024,Números,Sesenta,Hyǘ i ’róte,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_065,Números,Sesenta y uno,Hyǘ i ’róte ’ná,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_066,Números,Sesenta y dos,Hyǘ i ’róte yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_067,Números,Sesenta y tres,Hyǘ i ’róte hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_068,Números,Sesenta y cuatro,Hyǘ i ’róte gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_069,Números,Sesenta y cinco,Hyǘ i ’róte kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_070,Números,Sesenta y seis,Hyǘ i ’róte ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_071,Números,Sesenta y siete,Hyǘ i ’róte yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_072,Números,Sesenta y ocho,Hyǘ i ’róte hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_073,Números,Sesenta y nueve,Hyǘ i ’róte gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_025,Números,Setenta,Hyǘ i ’róte ’ré̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_074,Números,Setenta y uno,Hyǘ i ’róte ’ré̱t’a ’ná,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_075,Números,Setenta y dos,Hyǘ i ’róte ’ré̱t’a yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_076,Números,Setenta y tres,Hyǘ i ’róte ’ré̱t’a hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_077,Números,Setenta y cuatro,Hyǘ i ’róte ’ré̱t’a gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_078,Números,Setenta y cinco,Hyǘ i ’róte ’ré̱t’a kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_079,Números,Setenta y seis,Hyǘ i ’róte ’ré̱t’a ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_080,Números,Setenta y siete,Hyǘ i ’róte ’ré̱t’a yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_081,Números,Setenta y ocho,Hyǘ i ’róte ’ré̱t’a hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_082,Números,Setenta y nueve,Hyǘ i ’róte ’ré̱t’a gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_026,Números,Ochenta,Gǒho i ’róte,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_083,Números,Ochenta y uno,Gǒho i ’róte ’ná,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_084,Números,Ochenta y dos,Gǒho i ’róte yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_085,Números,Ochenta y tres,Gǒho i ’róte hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_086,Números,Ochenta y cuatro,Gǒho i ’róte gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_087,Números,Ochenta y cinco,Gǒho i ’róte kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_088,Números,Ochenta y seis,Gǒho i ’róte ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_089,Números,Ochenta y siete,Gǒho i ’róte yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_090,Números,Ochenta y ocho,Gǒho i ’róte hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_091,Números,Ochenta y nueve,Gǒho i ’róte gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_027,Números,Noventa,Gǒho i ’róte ’ré̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_092,Números,Noventa y uno,Gǒho i ’róte ’ré̱t’a ’ná,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_093,Números,Noventa y dos,Gǒho i ’róte ’ré̱t’a yóho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_094,Números,Noventa y tres,Gǒho i ’róte ’ré̱t’a hyǘ,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_095,Números,Noventa y cuatro,Gǒho i ’róte ’ré̱t’a gǒho,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_096,Números,Noventa y cinco,Gǒho i ’róte ’ré̱t’a kú̱t’a,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_097,Números,Noventa y seis,Gǒho i ’róte ’ré̱t’a ’ráto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_098,Números,Noventa y siete,Gǒho i ’róte ’ré̱t’a yòto,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_099,Números,Noventa y ocho,Gǒho i ’róte ’ré̱t’a hyä́to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_100,Números,Noventa y nueve,Gǒho i ’róte ’ré̱t’a gǔ̱to,,,No asociado,No hay archivo numérico para esta palabra en el material.
+numeros_028,Números,Cien,N’à siénto,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+numeros_101,Números,Cien,N’à nzù̱di,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+cuerpo_001,El cuerpo,Barba,Khú̱ni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_044,El cuerpo,Bigote,Khú̱ni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_002,El cuerpo,Boca,Né,Audio/Partes del cuerpo/boca.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_003,El cuerpo,Cabeza,Yä́,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_004,El cuerpo,Cabello / pelo,Xtä̌,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_005,El cuerpo,Calvo,Mú̱t’iyä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_006,El cuerpo,Cara,Hmí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_007,El cuerpo,Ceja,’Yǒdo,Audio/Partes del cuerpo/Ceja.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_008,El cuerpo,Codo,Yüni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_009,El cuerpo,Corazón,Mu̱ ̀ i,Audio/Partes del cuerpo/Corazón.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_010,El cuerpo,"Cuello, garganta",’Yù̱ga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_011,El cuerpo,Dedo,Xǒ,Audio/Partes del cuerpo/Dedo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_012,El cuerpo,Dedo gordo del pie,Yáhmo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_013,El cuerpo,Diente,Ts’ii,Audio/Partes del cuerpo/Diente.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_014,El cuerpo,Espalda,Xǔ̱tha,Audio/Partes del cuerpo/Espalda.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_015,El cuerpo,Frente,Dë́,Audio/Partes del cuerpo/Frente.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_045,El cuerpo,"Garganta, cuello",’Yù̱ga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_016,El cuerpo,Hígado,Yǎ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_017,El cuerpo,"Intestinos, tripas",Xèpho,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_018,El cuerpo,Labios,Xǐne,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_019,El cuerpo,Lengua,Khàne,Audio/Partes del cuerpo/Lengua.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_020,El cuerpo,Mano,’Yé̱,Audio/Partes del cuerpo/Mano.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_046,El cuerpo,Mejilla,Hmí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_021,El cuerpo,Mollera,Ndéhi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_022,El cuerpo,Muela,Ts’áphi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_023,El cuerpo,Nariz,Xìyü,Audio/Partes del cuerpo/Nariz.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_024,El cuerpo,Nervios del cuello,Zàts’u̱ ’yù̱ga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_025,El cuerpo,Nuca,Xǔ̱thayä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_026,El cuerpo,Ojo,Dó,Audio/Partes del cuerpo/ojo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_027,El cuerpo,Ombligo,Ts’òi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_028,El cuerpo,Oreja,Gǘ,Audio/Partes del cuerpo/Oreja.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_029,El cuerpo,Pecho,Tíyä,Audio/Partes del cuerpo/Pecho.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_030,El cuerpo,Pestañas,Xǐdo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_031,El cuerpo,Pie,Gwá,Audio/Partes del cuerpo/pie.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_032,El cuerpo,Pierna,Xinthe,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_033,El cuerpo,Pómulo,Ndànts’ihmi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_034,El cuerpo,Quijada,’Yǒne,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_035,El cuerpo,Rodilla,Yǎhmü,Audio/Partes del cuerpo/Rodilla.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_036,El cuerpo,"Sien, sentido",Ndú̱ngü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_037,El cuerpo,Tabique nasal,Gǚxtǒ’yo gu̱ xìyü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_038,El cuerpo,Uña,Xíxo,Audio/Partes del cuerpo/uña.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+cuerpo_039,El cuerpo,Fosa nasal,’Óki xìyü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_040,El cuerpo,Vello de la nariz,Xixíyü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_041,El cuerpo,Arruga,Gàtu̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_042,El cuerpo,Sangre,Khí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+cuerpo_043,El cuerpo,Saliva,Khìni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_001,La familia,Hijo,T’ú̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_002,La familia,Hija,T’ìxü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_003,La familia,Mi hijo,Ma bä̀tsiga,Audio/Famila/Mi hijo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_004,La familia,Este mi hijo,Ma bä̀tsik’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_005,La familia,Nieto / Nieta,’Mé̱ to,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_006,La familia,Bisnieto / Bisnieta,’Mo’mé̱ to,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_007,La familia,Tataranieto / Tataranieta,’Modo’mé̱ to,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_008,La familia,Hijo legítimo,Lexǐtimu bä̀tsi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_009,La familia,Adoptar / Adoptado,Zǐni / Ho̱ bo̱ ts’ǐt’o,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_010,La familia,Papá,Dada,Audio/Famila/Papá.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_011,La familia,Mamá,nana,Audio/Famila/Mamá.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_012,La familia,Abuela,Tsǘ,Audio/Famila/Abuela.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_013,La familia,Abuelo,Dä̀ta,Audio/Famila/Abuelo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_014,La familia,Bisabuela,’Mótsü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_015,La familia,Bisabuelo,’Modä̀ta,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_016,La familia,Tatarabuela,Nchǐta,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_017,La familia,Tatarabuelo,Nchǐto,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_018,La familia,Tatarabuelo / Ancestro,Bo̱pangǎnde,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_019,La familia,Tío,’Wě,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_020,La familia,Tía,Zìtsi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_021,La familia,Sobrino / Sobrina,’Me̱dìtsi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_022,La familia,Sobrino/a nieto/a,’Mé̱ to ’me̱dìtsi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_023,La familia,Primo hermano,Prǐmo do̱ t’e,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_024,La familia,Prima hermana,Prǐma zíkü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_025,La familia,Hermano,Ìda,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_026,La familia,Hermano,Dó̱ t’e,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_027,La familia,Hermana,Zǐkü,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_028,La familia,Hermana,Nkhǘ,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_029,La familia,Mi hermano mayor,Ma ’me̱ t’o’ìdagá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_030,La familia,Media hermana de papá,Ma zíküga ngé ma pǎga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_031,La familia,Media hermana de mamá,Ma zíküga ngé ma mǎga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_032,La familia,Medio hermano de papá,Ma ìdaga ngé ma pǎga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_033,La familia,Medio hermano de mamá,Ma ìdaga ngé ma mǎga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_034,La familia,Mi señor,Ma dámega,Audio/Famila/Mi señor.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_035,La familia,Mi señora,Ma dáxüga / Ma xítsügá,Audio/Famila/Mi señora.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_036,La familia,Suegro,Pá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_037,La familia,Suegra,Má,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_038,La familia,Yerno,Kǒ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_039,La familia,Nuera,M’mè̱hä,Audio/Famila/nuera.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_040,La familia,Cuñado,’Mó,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_041,La familia,Cuñada,’Múdu,Audio/Famila/cuñada.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+familia_042,La familia,Padrastro,Ho̱ ta,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_043,La familia,Madrastra,Ho̱me,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_044,La familia,"Hijastro/a, entenado",Hó̱bo̱ ts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_045,La familia,Hijastro,Ho̱ t’u̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_046,La familia,Hijastra,Hó̱ t’ixü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_047,La familia,Padrino,Tàikhä,Audio/Honorificos-profesiones/Padrino.m4a,Nombre exacto en carpeta transversal,Asociado,Coincidencia única en una carpeta general del material.
+familia_048,La familia,Madrina,Měkhä,Audio/Honorificos-profesiones/Madrina.m4a,Nombre exacto en carpeta transversal,Asociado,Coincidencia única en una carpeta general del material.
+familia_049,La familia,Ahijado / Ahijada,Ts’ìhwe̱ / Thé̱ ts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_050,La familia,Compadre,mbǎne nkhä̀pi,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_051,La familia,Compadre,gǔmba nkhä̀pi,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+familia_052,La familia,Comadre,mǎne,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_053,La familia,Señor / Don,me̱gi dǎda,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_054,La familia,Señora / Doña,me̱gi nǎna,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_055,La familia,Amigo o conocido,Mphä́di,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_056,La familia,Enemigo,Híngi dì n’yóhwi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_057,La familia,Extraño / Desconocido,Ràndi khä́’ï,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_058,La familia,Vecino,Bisǐnu,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_059,La familia,Huérfano,Hyòya,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_060,La familia,Hombre no nativo / Forastero,’Mè̱go,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_061,La familia,Mujer no nativa / Forastera,Tsü’mìgü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_062,La familia,Es mi pariente,Dí ’yǒga’me,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_063,La familia,No es mi pariente,Hḯ xáti ’yǒga’me / Xáti ’yǒga’me,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_064,La familia,Gente blanca / persona blanca,t’ǎxki khä̀’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_065,La familia,Gente güera / persona güera,k’ǎxt’i khä̀’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_066,La familia,Gente negra / persona negra,‘mò k’ì’a,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_067,La familia,Niño / Muchachito,mètsi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_068,La familia,Ma bä̀tsiga,Mi hijo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_069,La familia,Ma T’ìxüga,Mi hija,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_070,La familia,Ma M’mè̱häga,Mi nuera,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_071,La familia,Ma Prǐmo do̱ t’ega,Mi primo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_072,La familia,Ma Zìtsiga,Mi tía,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+familia_073,La familia,Ma ’Wěga,Mi tío,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_001,"Plantas, frutas y cultivos",Acahual,Xó,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_002,"Plantas, frutas y cultivos",Aguacate,Ts’óni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_003,"Plantas, frutas y cultivos",Alverjón,Dǒkhu̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_004,"Plantas, frutas y cultivos","Árbol, palo,leña",Zà,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_005,"Plantas, frutas y cultivos",Calabaza,Mǚ,"Audio/frutas , verduras,Plantas/calabaza.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_006,"Plantas, frutas y cultivos",Camote,Bó’kw’ä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_007,"Plantas, frutas y cultivos",Campo,Hwáhi,Audio/Sustantivos/el campo.m4a,Nombre exacto en carpeta transversal,Asociado,Coincidencia única en una carpeta general del material.
+plantas_008,"Plantas, frutas y cultivos",Caña,K’á’yo,"Audio/frutas , verduras,Plantas/Caña.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_009,"Plantas, frutas y cultivos",Capulín,Dè̱se̱,,,No asociado,Hay grabaciones duplicadas con el mismo nombre; no se selecciona una automáticamente.
+plantas_010,"Plantas, frutas y cultivos",Cebada,Sawǎra,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_011,"Plantas, frutas y cultivos",Chahuistle,’Wě,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_012,"Plantas, frutas y cultivos",Chayote,Xàmü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_013,"Plantas, frutas y cultivos",Durazno,Nǎxnu,"Audio/frutas , verduras,Plantas/durazno.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_014,"Plantas, frutas y cultivos",Epazote,Hogan’ài,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_015,"Plantas, frutas y cultivos",Espina,’Míni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_016,"Plantas, frutas y cultivos",Estafiate,Méphe,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_017,"Plantas, frutas y cultivos",Flor,Dòni,"Audio/frutas , verduras,Plantas/flor.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_018,"Plantas, frutas y cultivos",Frijol,Ts’ünkhu̱,"Audio/frutas , verduras,Plantas/frijol.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_019,"Plantas, frutas y cultivos",Fruto (rojo) de encino no comestible,K’òtse̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_020,"Plantas, frutas y cultivos",Grano,Tsháxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_021,"Plantas, frutas y cultivos",Habas,’Äwxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_022,"Plantas, frutas y cultivos",Hierba,K’àni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_023,"Plantas, frutas y cultivos",Hongo,Khó,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_024,"Plantas, frutas y cultivos",Huauzontle,Nyǎk’ü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_025,"Plantas, frutas y cultivos",Jaltomate,Bépe,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_026,"Plantas, frutas y cultivos",Lenteja,Nděroxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_027,"Plantas, frutas y cultivos",Maguey,’Wàda,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_028,"Plantas, frutas y cultivos",Maíz,Dèthä,"Audio/frutas , verduras,Plantas/maiz.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_029,"Plantas, frutas y cultivos",Mazorca,Thá,"Audio/frutas , verduras,Plantas/Mazorca.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_030,"Plantas, frutas y cultivos",Milpa,Thúhü,"Audio/frutas , verduras,Plantas/Milpa.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_031,"Plantas, frutas y cultivos","Naranja, agrio",’Íxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_032,"Plantas, frutas y cultivos",Nopal,Xát’ä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_033,"Plantas, frutas y cultivos",Papa,K’ápuxü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_034,"Plantas, frutas y cultivos",Prementina (sabia),Bópo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_035,"Plantas, frutas y cultivos",Quelite,Gink’ani,"Audio/frutas , verduras,Plantas/quelite.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+plantas_036,"Plantas, frutas y cultivos",Quelite de trigo,K’úkha,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_037,"Plantas, frutas y cultivos",Quintonil,Xitha,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_038,"Plantas, frutas y cultivos",Rama,’Yé̱za,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_039,"Plantas, frutas y cultivos",Surco,Thé,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_040,"Plantas, frutas y cultivos",Tejocote,Pè̱ni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_041,"Plantas, frutas y cultivos","Tlacote, tipo de grano",Thí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_042,"Plantas, frutas y cultivos",Trigo,T’èi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_043,"Plantas, frutas y cultivos",Tuna,Káhä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_044,"Plantas, frutas y cultivos",Zacate de milpa,Xithä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+plantas_045,"Plantas, frutas y cultivos",Zapote,Müza,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_001,Alimentos,Aceite,’Asídi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_002,Alimentos,Agua,Déhe,Audio/comida/Agua.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_003,Alimentos,Aguamiel,T’áphi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_004,Alimentos,Atole,T’ěi,Audio/comida/Atole.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_005,Alimentos,Azúcar,’Asüga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_006,Alimentos,Carne,Ngǒ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_007,Alimentos,Comida,Thu̱hu̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_008,Alimentos,Chicle,Ts’ápo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_009,Alimentos,Chicharrón,Pít’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_010,Alimentos,Huevo,Dò’ni,Audio/comida/huevo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_011,Alimentos,Masa,Khüni,Audio/comida/Masa.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_012,Alimentos,Nixtamal,Tshüni,Audio/comida/Nixtamal.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_013,Alimentos,Pan,Hmè̱mpho̱,Audio/comida/pan.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_014,Alimentos,Pinole,’Mót’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_015,Alimentos,Pulque,Tshěi,Audio/comida/pulque.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_016,Alimentos,Refresco,’Úthe,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_017,Alimentos,Sal,’Ú,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_018,Alimentos,Tamal,Thědi,Audio/comida/Tamal.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+alimentos_019,Alimentos,Texate (agua de masa),Gitshíphi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+alimentos_020,Alimentos,Tortilla,Hmé,Audio/comida/tortilla.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_010,Animales,Abeja,Gáne,Audio/Animales/Abeja.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_017,Animales,Águila,Nzùni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_018,Animales,Araña,Méxe,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_019,Animales,"Asno,burro",’Áxnu,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_004,Animales,"Borrego, algodón",Déti,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_003,Animales,Caballo,Tóge,Audio/Animales/caballo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_020,Animales,Conejo,Khwá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_021,Animales,"Chango, mono",Nzùpa,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_022,Animales,Chapulín,T’äxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_023,Animales,Chinche,Xán’we̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_006,Animales,Gallina,Tsü’ni,,,No asociado,Hay grabaciones duplicadas con el mismo nombre; no se selecciona una automáticamente.
+animales_007,Animales,Gallo,Tā’ni,Audio/Animales/Gallo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_002,Animales,Gato,Mixtu,Audio/Animales/gato.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_024,Animales,Gavilán,Pè̱nts’u̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_025,Animales,Hormiga,Xákhu̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_026,Animales,Liebre,Dé,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_027,Animales,Liendre,Bòt’o,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_028,Animales,Lombriz,Métse̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_029,Animales,Mosca,Gin’wë,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_030,Animales,Mula,Pháni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_031,Animales,Nido,’Máphi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_032,Animales,Pájaro,Nts’ú̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_033,Animales,Pato,Bádu,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_034,Animales,Perrito,Chik’yó,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_001,Animales,Perro,’Yó,Audio/Animales/perro.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_035,Animales,Pez,Hwá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_036,Animales,Pollito,Chik’óni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_014,Animales,Pollo,’Óni,Audio/Animales/Pollo.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+animales_037,Animales,Puerco,Bízu,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_038,Animales,Tecolote,Túkúru,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_039,Animales,Tlacuache,Dàzü̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_040,Animales,Tuza,Tsu̱bi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+animales_009,Animales,Víbora,K’èyä,Audio/Animales/vibora.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+ropa_001,Ropa y accesorios,Anillo,Mphǒxo,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+ropa_002,Ropa y accesorios,Anillo,Nt’óxo,,,No asociado,El Excel contiene distintas formas Yhụmụ para esta misma traducción; requiere revisión.
+ropa_003,Ropa y accesorios,Arete,Ts’úngü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_004,Ropa y accesorios,Ayate,Rónkhwa,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_005,Ropa y accesorios,Botón,Ndu̱’t’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_006,Ropa y accesorios,"Calcetín, media",Nt’ókw’a,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_007,Ropa y accesorios,Calzón (de manta),Nkhó’kw’a,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_008,Ropa y accesorios,Ceñidor,Khu̱t’i,Audio/ropa/Señidor.m4a,Alias ortográfico explícito,Asociado,Equivalencia de nombre documentada en los recursos.
+ropa_009,Ropa y accesorios,Cobija,Xí’yo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_010,Ropa y accesorios,Collar,’Mède,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_011,Ropa y accesorios,"Falda, enagua",Ngóde,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_012,Ropa y accesorios,"Gabán, cotón",’Mè’mi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_013,Ropa y accesorios,Huarache,Zéxthi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_014,Ropa y accesorios,Lana,Bòxo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_015,Ropa y accesorios,Pañal,M’ánt’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_016,Ropa y accesorios,Pulsera,Mphò’ye̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_017,Ropa y accesorios,Rebozo,Bǎyu,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_018,Ropa y accesorios,Ropa,Zéxo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+ropa_019,Ropa y accesorios,Sombrero,Phüi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_017,Objetos,Almohada,Nhüni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_018,Objetos,Azucarera,Nt’u’asüga,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_019,Objetos,Batea de madera,Hwànza,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_020,Objetos,Bicol (tipo de cántaro),’Màda,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_021,Objetos,Cajete,Máda,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_022,Objetos,Cántaro,Xǒni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_001,Objetos,Casa,Ngǘ,Audio/Objetos/Casa.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_023,Objetos,Cazuela,Gasewě̱ra,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_024,Objetos,Cocina,Gosïna,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_002,Objetos,Comal,Dò’yo,Audio/Objetos/comal.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_025,Objetos,Cuchara,Mǒgwa,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_026,Objetos,"Cucharón, cuchara grande",Ndòte mǒgwa,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_027,Objetos,Cuchillo,Kwhài,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_028,Objetos,Chiquepextle,’Mèthi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_029,Objetos,Chiquihuite,’Mòts’e,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_030,Objetos,Escalera,Nirěde,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_031,Objetos,Escalón,Réndo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_032,Objetos,Escarmenador (tipo de peine),Ntsháni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_033,Objetos,Escoba,’Màxi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_034,Objetos,Espejo,Nihyěi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_035,Objetos,Hamaca,Xít’a,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_036,Objetos,Jarro,Sáru,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_037,Objetos,Jícara,Xímo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_038,Objetos,Lavadero,M’èni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_005,Objetos,Llave,Ntshóki,Audio/Objetos/llave.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_008,Objetos,Metate,Nikhüni,,,No asociado,Hay grabaciones duplicadas con el mismo nombre; no se selecciona una automáticamente.
+objetos_009,Objetos,Molcajete,Màndo,Audio/Objetos/Molcajete.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_010,Objetos,Olla,Ts’èe,Audio/Objetos/olla.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_039,Objetos,Patio,Thí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_013,Objetos,Petate,Xíphi,Audio/Objetos/Petate.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_014,Objetos,Plato,Mánza,Audio/Objetos/plato.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+objetos_040,Objetos,Puerta,Nikhüt’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_041,Objetos,Sahumerio,Nthá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_042,Objetos,Tlecuil (tres piedras),Hyüi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_043,Objetos,"Tlecuil, fogón",Gǒspi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_044,Objetos,Vela,Túdi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_045,Objetos,"Vidrio, botella de vidrio",Dòxito,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_046,Objetos,Arado,T’àbi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_047,Objetos,Aventador,Mhmáspi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_048,Objetos,"Bozal, tempoxa (tipo de bozal de red)",Nthüne,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_049,Objetos,Carbón,Théyä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_050,Objetos,Carro,Nzăru,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_051,Objetos,Cigarro,’Yüi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_052,Objetos,Costal,Gúxtha,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_053,Objetos,"Costillas, huacal, chiquihuite",’Mòts’e,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_054,Objetos,Chinamite,Dóxo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_055,Objetos,"Fierro, campana",T’égi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_056,Objetos,Honda,Nt’èndo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_057,Objetos,Hoz,T’èxu̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_058,Objetos,Juguete,Nt’èni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_059,Objetos,Lazo,Xáhi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_060,Objetos,Mecapal,Ndé,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_061,Objetos,Pala,Bǎra,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_062,Objetos,Papel,Tsükwä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_063,Objetos,"Pelota, algo redondo",Nüni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_064,Objetos,Pizcalón (herramienta para la pizca),Nthóki,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+objetos_065,Objetos,Vara,T’ǒ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_005,Verbos y acciones,Agarrar,Thě̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_006,Verbos y acciones,Apúrate,Xǒni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_007,Verbos y acciones,Ayúdalo,Phóts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_001,Verbos y acciones,Bailar,Nèi,Audio/verbos/Bailar.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+verbos_008,Verbos y acciones,Barbechar,Gwǎnts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_009,Verbos y acciones,"Beber, tomar",Tsí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_010,Verbos y acciones,Brincar,Tshógi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_002,Verbos y acciones,Cantar,Tühü,Audio/verbos/Cantar.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+verbos_011,Verbos y acciones,Contar,Pède,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_012,Verbos y acciones,"Coser, bordar",’Wě̱di,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_013,Verbos y acciones,Cruzar,’Rǎni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_014,Verbos y acciones,Dejar,Tsògi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_015,Verbos y acciones,Dile,Xíphi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_016,Verbos y acciones,Ensartar,Phòti,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_017,Verbos y acciones,Envolver,Pòts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_018,Verbos y acciones,Escribir,’Yò’t’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_019,Verbos y acciones,Escupir,Tsògi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_020,Verbos y acciones,Está escribiendo,N’ò’t’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_021,Verbos y acciones,Exprimir,T’èmi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_022,Verbos y acciones,Moler,Küni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_023,Verbos y acciones,Pizcar,Tshǒpho,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_024,Verbos y acciones,Rascar,Tàki,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_025,Verbos y acciones,Robar,Pé,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_026,Verbos y acciones,Segar,Hyět’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_027,Verbos y acciones,Soñar,’Wí,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_028,Verbos y acciones,"Tapar (olla, hoyo)",Kó’mi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_029,Verbos y acciones,Tejer,Pé,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+verbos_030,Verbos y acciones,Termina,Kwhádi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+colores_003,Colores,Amarillo,K’áxt’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+colores_001,Colores,Blanco,T’àxi,Audio/colores/blanco.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+colores_002,Colores,Negro,Mbòi,Audio/colores/negro.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+colores_004,Colores,Verde,Nk’àngi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+adjetivos_001,Adjetivos,Alto (estatura),Hěts’i,Audio/adjetivos/Alto.m4a,Alias ortográfico explícito,Asociado,Equivalencia de nombre documentada en los recursos.
+adjetivos_008,Adjetivos,"Caliente, día",Pá,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+adjetivos_004,Adjetivos,Pequeño,Chitépi,Audio/adjetivos/Pequeño.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+adjetivos_003,Adjetivos,Grande,Ndòte̱,Audio/adjetivos/Grande.m4a,Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+adjetivos_009,Adjetivos,Grueso,Pidi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+adjetivos_010,Adjetivos,Nuevo,’Rà’yo,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+adjetivos_011,Adjetivos,Redondo u ovalado,Ntsànt’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+adjetivos_012,Adjetivos,Sabroso,Kühi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_001,Clima y entorno,Adentro,Mbǒ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_002,Clima y entorno,"Agujero, hoyo",’Óki,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_003,Clima y entorno,Arcoíris,’Měkhu̱ni̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_004,Clima y entorno,Arena,’Mòmü,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_005,Clima y entorno,Camino,’Yǘ,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_006,Clima y entorno,Ceniza,’Mòspi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_007,Clima y entorno,Cerro,T’òho̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_008,Clima y entorno,Cielo,Mahěts’i,"Audio/Elementos ,astros,clima/Cielo.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_009,Clima y entorno,Espuma,Phúgi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_010,Clima y entorno,Estrella,Tsó̱,"Audio/Elementos ,astros,clima/estrella.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_011,Clima y entorno,"Frío, nieve, hielo",Tsé̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_012,Clima y entorno,Fuente,Zàbi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_013,Clima y entorno,Hoyo,Hyěi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_014,Clima y entorno,Iglesia,Níkhä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_015,Clima y entorno,Lumbre,Tsìbi,"Audio/Elementos ,astros,clima/Lumbre.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_016,Clima y entorno,Llano,’Mátha,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_017,Clima y entorno,Llueve,Din’wài,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_018,Clima y entorno,Lluvia,’Yè,"Audio/Elementos ,astros,clima/lluvia.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_019,Clima y entorno,"Luna, mes",Zànä,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_020,Clima y entorno,Nube,Güi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_021,Clima y entorno,Piedra,Dó,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_022,Clima y entorno,"Poza, laguna para almacenar agua (jagüey)",Xáwe̱,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_023,Clima y entorno,Pozo,Khu̱ts’i,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_024,Clima y entorno,Pueblo,Hníni,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_025,Clima y entorno,"Relámpago, rayo",Hwèi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_026,Clima y entorno,Sol,Hyádi,"Audio/Elementos ,astros,clima/sol.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_027,Clima y entorno,Tierra,Hòi,"Audio/Elementos ,astros,clima/Tierra.m4a",Nombre exacto en categoría,Asociado,Una única grabación tiene el mismo nombre normalizado que la traducción.
+clima_028,Clima y entorno,Tizne,Nhyàdi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+clima_029,Clima y entorno,"Viento, aire",Ndáhi,,,No asociado,No se encontró una coincidencia única exacta en su carpeta.
+articulos_001,Artículos y expresiones,La casa,Rà ngǔ,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_002,Artículos y expresiones,La flor,Rà dòni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_003,Artículos y expresiones,El metate,Rà nikhǔni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_004,Artículos y expresiones,La pulga,Rà ’ó,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_005,Artículos y expresiones,La lluvia,Rà ’yě,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_006,Artículos y expresiones,El diente,Rà ts’ii,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_007,Artículos y expresiones,El metate,Rà nikhüni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_008,Artículos y expresiones,El ojo,Rà dó,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_009,Artículos y expresiones,El pato,Rà bádu,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_010,Artículos y expresiones,El perro,Rà ’yó,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_011,Artículos y expresiones,El pinole,Rà ’mót’i,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_012,Artículos y expresiones,El pollo,Rà ’óni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_013,Artículos y expresiones,"El, la",Rà,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_014,Artículos y expresiones,La arena,Rà ’mòmü,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_015,Artículos y expresiones,La cabeza,Rà yǎ,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_016,Artículos y expresiones,La casa,Rà ngǘ,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_017,Artículos y expresiones,La ceniza,Rà ’mòspi,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_018,Artículos y expresiones,La escoba,Rà ’màxi,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_019,Artículos y expresiones,La estrella,Rà tsó̱,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_020,Artículos y expresiones,La flor,Rà dòni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_021,Artículos y expresiones,La gallina,Rà tsü’ni,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_022,Artículos y expresiones,La lluvia,Rà ’yè,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_023,Artículos y expresiones,La mano,Rà ’yé̱,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_024,Artículos y expresiones,La naranja,Rà ’ixi,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_025,Artículos y expresiones,La pulga,Rà ’ó,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_026,Artículos y expresiones,La pus,Rà ’yá,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_027,Artículos y expresiones,La raíz,Rà ’yü̱,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
+articulos_028,Artículos y expresiones,La sal,Rà ’ú,,,No asociado,Esta categoría no tiene una carpeta de audios específica; las grabaciones generales permanecen en la biblioteca.
