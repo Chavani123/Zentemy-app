@@ -82,8 +82,8 @@ class AudioPlayer(private val context: Context) {
             .filter { it.endsWith(".m4a", ignoreCase = true) }
             .map { filename ->
                 val rawTitle = filename.substringBeforeLast('.')
-                val isAlternative = Regex("\\s*\\(\\d+\\)$").containsMatchIn(rawTitle)
-                val title = sanitizeTitle(rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim())
+                val isAlternative = COPY_SUFFIX_REGEX.containsMatchIn(rawTitle)
+                val title = sanitizeTitle(rawTitle.replace(COPY_SUFFIX_REGEX, "").trim())
                 AudioCatalogItem(
                     path = "Audio/$filename",
                     title = title,
@@ -99,8 +99,8 @@ class AudioPlayer(private val context: Context) {
                     .filter { it.endsWith(".m4a", ignoreCase = true) }
                     .map { filename ->
                         val rawTitle = filename.substringBeforeLast('.')
-                        val isAlternative = Regex("\\s*\\(\\d+\\)$").containsMatchIn(rawTitle)
-                        val title = sanitizeTitle(rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim())
+                        val isAlternative = COPY_SUFFIX_REGEX.containsMatchIn(rawTitle)
+                        val title = sanitizeTitle(rawTitle.replace(COPY_SUFFIX_REGEX, "").trim())
                         AudioCatalogItem(
                             path = "$directory/$filename",
                             title = title,
@@ -117,6 +117,18 @@ class AudioPlayer(private val context: Context) {
                 .thenBy { it.title.lowercase(Locale.ROOT) }
                 .thenBy { it.isAlternative })
             .toList()
+    }
+
+    private fun sanitizeTitle(raw: String): String {
+        val cleaned = raw.replace('_', ' ')
+            .replace(SPACES_AROUND_COMMA_REGEX, ", ")
+            .replace(MULTIPLE_SPACES_REGEX, " ")
+            .trim()
+        return if (cleaned.isNotEmpty()) {
+            cleaned.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() }
+        } else {
+            cleaned
+        }
     }
 
     private fun folderTitle(folder: String): String = when (folder) {
@@ -153,8 +165,8 @@ class AudioPlayer(private val context: Context) {
             .filter { it.endsWith(".m4a", ignoreCase = true) }
             .map { name ->
                 val stem = name.substringBeforeLast('.')
-                val withoutCopyNumber = stem.replace(Regex("\\s*\\(\\d+\\)$"), "").trim()
-                Triple(name, normalize(withoutCopyNumber), stem.matches(Regex(".*\\(\\d+\\)$")))
+                val withoutCopyNumber = stem.replace(COPY_SUFFIX_REGEX, "").trim()
+                Triple(name, normalize(withoutCopyNumber), stem.matches(COPY_SUFFIX_MATCH_REGEX))
             }
 
         // Coincidencia exacta por nombre de significado y carpeta de categoría.
@@ -187,7 +199,7 @@ class AudioPlayer(private val context: Context) {
             val exactExtra = context.assets.list(extraFolder).orEmpty()
                 .filter { it.endsWith(".m4a", ignoreCase = true) }
                 .filter { filename ->
-                    val stem = filename.substringBeforeLast('.').replace(Regex("\\s*\\(\\d+\\)$"), "").trim()
+                    val stem = filename.substringBeforeLast('.').replace(COPY_SUFFIX_REGEX, "").trim()
                     normalize(stem) == wanted || (word.categoryId == "plantas" && wanted == normalize("Campo") && normalize(stem) == normalize("el campo"))
                 }
             if (exactExtra.size == 1) return "$extraFolder/${exactExtra.first()}"
@@ -237,10 +249,17 @@ class AudioPlayer(private val context: Context) {
     }
 
     companion object {
+        private val COPY_SUFFIX_REGEX = Regex("\\s*\\(\\d+\\)$")
+        private val COPY_SUFFIX_MATCH_REGEX = Regex(".*\\(\\d+\\)$")
+        private val SPACES_AROUND_COMMA_REGEX = Regex("\\s*,\\s*")
+        private val MULTIPLE_SPACES_REGEX = Regex("\\s+")
+        private val DIACRITICAL_MARKS_REGEX = Regex("\\p{InCombiningDiacriticalMarks}+")
+        private val NON_ALPHANUMERIC_REGEX = Regex("[^a-z0-9]")
+
         fun normalize(text: String): String {
             val temp = Normalizer.normalize(text.lowercase(Locale.ROOT), Normalizer.Form.NFD)
-            return temp.replace(Regex("\\p{InCombiningDiacriticalMarks}+"), "")
-                .replace(Regex("[^a-z0-9]"), "")
+            return temp.replace(DIACRITICAL_MARKS_REGEX, "")
+                .replace(NON_ALPHANUMERIC_REGEX, "")
         }
     }
 }
