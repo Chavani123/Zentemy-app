@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import mx.zentemi.yuhmu.data.STORIES
 import mx.zentemi.yuhmu.data.Story
+import mx.zentemi.yuhmu.data.avatarCharacter
 import mx.zentemi.yuhmu.model.ChallengeResult
 import mx.zentemi.yuhmu.model.Word
 import mx.zentemi.yuhmu.ui.components.*
@@ -72,7 +73,7 @@ fun StoriesRow(done: Set<String>, onOpen: (String) -> Unit) {
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Box(Modifier.size(54.dp).clip(CircleShape).background(Color.White.copy(alpha = 0.25f)), contentAlignment = Alignment.Center) {
-                        Text(s.emoji, fontSize = 30.sp)
+                        Icon(categoryIcon(s.categoryIcon), contentDescription = null, tint = Color.White, modifier = Modifier.size(28.dp))
                     }
                     Text(s.title, color = Color.White, fontWeight = FontWeight.ExtraBold, fontSize = 15.sp, minLines = 2)
                     Text(
@@ -128,12 +129,14 @@ fun StoryScreen(storyId: String, vm: YuhmuViewModel, onBack: () -> Unit) {
                 Text(story.title, fontSize = 20.sp, fontWeight = FontWeight.ExtraBold, color = c2)
                 AnimatedVisibility(shown, enter = fadeIn(tween(500)) + slideInVertically(tween(500)) { it / 4 }) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                        // Ilustración de la escena
+                        // Ilustración de la escena con el personaje del usuario
                         Box(
                             Modifier.fillMaxWidth().height(150.dp).clip(RoundedCornerShape(28.dp))
                                 .background(Brush.linearGradient(listOf(c1, c2))),
                             contentAlignment = Alignment.Center
-                        ) { Text(scene.emoji, fontSize = 84.sp) }
+                        ) {
+                            Mascot(size = 110.dp, mood = if (answered) Mood.CHEER else Mood.HAPPY, character = vm.progress.collectAsState().value.avatarCharacter())
+                        }
                         // Narración con la mascota
                         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             Mascot(size = 64.dp, mood = if (answered) Mood.CHEER else Mood.HAPPY)

@@ -45,16 +45,18 @@ class YuhmuViewModel(app: Application) : AndroidViewModel(app) {
 
     fun bindUser(user: User) {
         if (userId == user.id) {
-            _progress.value = _progress.value.copy(name = user.displayName)
+            _progress.value = _progress.value.copy(name = user.displayName, selectedAvatar = user.avatar)
             return
         }
         userId = user.id
-        _progress.value = UserProgress(name = user.displayName)
+        _progress.value = UserProgress(name = user.displayName, selectedAvatar = user.avatar)
         viewModelScope.launch {
             val loaded = withContext(Dispatchers.IO) { repo.load(user.id) }
-            if (userId == user.id) _progress.value = loaded.copy(name = user.displayName)
+            if (userId == user.id) _progress.value = loaded.copy(name = user.displayName, selectedAvatar = user.avatar)
         }
     }
+
+    fun setAvatar(avatarId: String) = update { it.copy(selectedAvatar = avatarId) }
 
     fun unbind() {
         userId = null

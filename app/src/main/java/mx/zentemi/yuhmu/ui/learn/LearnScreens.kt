@@ -33,6 +33,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import mx.zentemi.yuhmu.data.*
@@ -41,6 +42,7 @@ import mx.zentemi.yuhmu.model.Question
 import mx.zentemi.yuhmu.ui.challenge.ChallengeScreen
 import mx.zentemi.yuhmu.ui.components.*
 import mx.zentemi.yuhmu.ui.theme.Brand
+import mx.zentemi.yuhmu.ui.theme.YuhmuTheme
 import mx.zentemi.yuhmu.viewmodel.YuhmuViewModel
 
 private enum class NodeState { LOCKED, CURRENT, DONE, SKIPPED }
@@ -191,7 +193,7 @@ private fun Greeting(progress: UserProgress) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp)
     ) {
-        Mascot(size = 76.dp, mood = Mood.CHEER)
+        Mascot(size = 76.dp, mood = Mood.CHEER, character = progress.avatarCharacter())
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text("¡Hola, ${progress.name}!", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold, color = Color.White)
             Text("Nivel ${progress.level()} · ${progress.levelTitle()}", fontSize = 13.sp, color = Brand.lavender, fontWeight = FontWeight.SemiBold)
@@ -430,7 +432,7 @@ private fun StudyPhase(
             if (!practiceMode) {
                 Spacer(Modifier.height(4.dp))
                 Text("¡Vamos a aprender!", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold, color = Brand.purple)
-                Mascot(size = 76.dp, mood = Mood.HAPPY)
+                Mascot(size = 76.dp, mood = Mood.HAPPY, character = vm.progress.collectAsState().value.avatarCharacter())
                 Column(
                     Modifier.fillMaxWidth().card(),
                     horizontalAlignment = Alignment.CenterHorizontally,
@@ -464,7 +466,7 @@ private fun StudyPhase(
             } else {
                 Spacer(Modifier.height(8.dp))
                 Text("¿Qué significa esta palabra?", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold, color = Brand.ink, textAlign = TextAlign.Center)
-                Mascot(size = 76.dp, mood = if (correct) Mood.CHEER else Mood.HAPPY)
+                Mascot(size = 76.dp, mood = if (correct) Mood.CHEER else Mood.HAPPY, character = vm.progress.collectAsState().value.avatarCharacter())
                 Column(Modifier.fillMaxWidth().card(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text(word.yuhmu, fontSize = 30.sp, fontWeight = FontWeight.ExtraBold, color = Brand.purple, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
                     Text("Lee la pista para descubrir qué quiere decir.", fontSize = 13.sp, color = Brand.gray, textAlign = TextAlign.Center)
@@ -507,6 +509,54 @@ private fun StudyPhase(
             TextButton(onClick = onPrev, modifier = Modifier.align(Alignment.CenterHorizontally)) {
                 Text("Volver a la palabra anterior", color = Brand.gray)
             }
+        }
+    }
+}
+
+@Preview(name = "1. Teléfono Portrait", showBackground = true, widthDp = 360, heightDp = 740)
+@Preview(name = "2. Tablet / Pantalla Grande", showBackground = true, widthDp = 768, heightDp = 1024)
+@Preview(name = "3. Teléfono Landscape", showBackground = true, widthDp = 740, heightDp = 360)
+@Composable
+fun LearnScreenAdaptabilityPreview() {
+    YuhmuTheme {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Brand.bg)
+                .verticalScroll(rememberScrollState())
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            Greeting(progress = UserProgress(name = "Explorador Yhụmụ", points = 350, streak = 5))
+            DailyChallengeCard(done = false, onClick = {})
+            UnitHeader(
+                number = 1,
+                title = "Saludos y Frases",
+                words = 12,
+                icon = Icons.Filled.AutoAwesome,
+                color = Brand.purple,
+                edge = Brand.purpleDark
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                PathNode(index = 0, state = NodeState.DONE, stars = 3, color = Brand.purple, edge = Brand.purpleDark, onClick = {})
+                PathNode(index = 1, state = NodeState.CURRENT, stars = 0, color = Brand.purple, edge = Brand.purpleDark, onClick = {})
+                PathNode(index = 2, state = NodeState.LOCKED, stars = 0, color = Brand.purple, edge = Brand.purpleDark, onClick = {})
+            }
+            NumberSystemCard()
+        }
+    }
+}
+
+@Preview(name = "Tarjetas de Reto Diario", showBackground = true)
+@Composable
+fun DailyChallengeCardPreview() {
+    YuhmuTheme {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            DailyChallengeCard(done = false, onClick = {})
+            DailyChallengeCard(done = true, onClick = {})
         }
     }
 }

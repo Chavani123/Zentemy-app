@@ -66,6 +66,7 @@ fun ProfileScreen(user: User, auth: AuthViewModel, vm: YuhmuViewModel, bottomBar
     val joined = remember(user.createdAt, currentLang) {
         SimpleDateFormat("MMMM yyyy", Locale.forLanguageTag(currentLang.code)).format(Date(user.createdAt))
     }
+    val currentCharacter = remember(progress.selectedAvatar) { mx.zentemi.yuhmu.model.AppCharacter.fromId(progress.selectedAvatar) }
 
     YuhmuScaffold("nav_profile".tr(), bottomBar = bottomBar) { padding ->
         Column(
@@ -73,10 +74,7 @@ fun ProfileScreen(user: User, auth: AuthViewModel, vm: YuhmuViewModel, bottomBar
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            Box(
-                Modifier.size(104.dp).clip(CircleShape).background(Brand.lavender).border(4.dp, Brand.purpleLight, CircleShape),
-                contentAlignment = Alignment.Center
-            ) { Text(user.avatar, fontSize = 52.sp) }
+            Mascot(size = 104.dp, mood = Mood.HAPPY, character = currentCharacter)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(user.displayName, fontSize = 26.sp, fontWeight = FontWeight.ExtraBold, color = Brand.purple)
                 Icon(Icons.Filled.Edit, contentDescription = "change_name".tr(), tint = Brand.purpleMid,
@@ -88,6 +86,56 @@ fun ProfileScreen(user: User, auth: AuthViewModel, vm: YuhmuViewModel, bottomBar
                 fontSize = 13.sp, fontWeight = FontWeight.ExtraBold, color = Color.White,
                 modifier = Modifier.background(Brand.green, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp, vertical = 4.dp)
             )
+
+            // Personalización de Personaje
+            Column(Modifier.fillMaxWidth().card(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Text("Personalización de personaje", fontSize = 18.sp, fontWeight = FontWeight.ExtraBold, color = Brand.ink)
+                Text("Elige tu personaje acompañante en Yhụmụ:", fontSize = 13.sp, color = Brand.gray)
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    mx.zentemi.yuhmu.model.AppCharacter.entries.forEach { ch ->
+                        val isSelected = ch == currentCharacter
+                        Column(
+                            modifier = Modifier
+                                .weight(1f)
+                                .clip(RoundedCornerShape(18.dp))
+                                .background(if (isSelected) Brand.lavender else Color.White)
+                                .border(2.dp, if (isSelected) Brand.purpleMid else Brand.grayLight, RoundedCornerShape(18.dp))
+                                .clickable { vm.setAvatar(ch.id) }
+                                .padding(8.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.spacedBy(4.dp)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(54.dp)
+                                    .clip(CircleShape)
+                                    .background(Color.White)
+                                    .border(2.dp, if (isSelected) Brand.purpleMid else Brand.grayEdge, CircleShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                androidx.compose.foundation.Image(
+                                    painter = androidx.compose.ui.res.painterResource(id = ch.drawableRes),
+                                    contentDescription = ch.characterName,
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .clip(CircleShape)
+                                        .background(Color.White)
+                                )
+                            }
+                            Text(
+                                ch.characterName.split(" ").first(),
+                                fontSize = 12.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = if (isSelected) Brand.purple else Brand.ink,
+                                textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                            )
+                        }
+                    }
+                }
+            }
 
             // Resumen de progreso visible desde el perfil, como pide la matriz UAT.
             Column(Modifier.fillMaxWidth().card(), verticalArrangement = Arrangement.spacedBy(10.dp)) {

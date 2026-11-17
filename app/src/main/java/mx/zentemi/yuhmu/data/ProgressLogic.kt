@@ -23,8 +23,12 @@ data class UserProgress(
     val memoramaWins: Int = 0,
     val perfectChallenges: Int = 0,
     val storiesDone: Set<String> = emptySet(),
-    val spokenWords: Int = 0
+    val spokenWords: Int = 0,
+    val selectedAvatar: String = "rabbit"
 )
+
+fun UserProgress.avatarCharacter(): mx.zentemi.yuhmu.model.AppCharacter =
+    mx.zentemi.yuhmu.model.AppCharacter.fromId(selectedAvatar)
 
 const val LEVEL_STEP = 150
 val LEVEL_TITLES = listOf("Semilla", "Brote", "Retoño", "Milpa", "Maíz tierno", "Jilote", "Mazorca", "Cosecha", "Sabio de Ixtenco", "Voz del Yhụmụ", "Guardián Zentemi")

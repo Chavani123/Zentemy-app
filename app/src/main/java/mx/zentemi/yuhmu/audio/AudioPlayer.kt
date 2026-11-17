@@ -83,9 +83,10 @@ class AudioPlayer(private val context: Context) {
             .map { filename ->
                 val rawTitle = filename.substringBeforeLast('.')
                 val isAlternative = Regex("\\s*\\(\\d+\\)$").containsMatchIn(rawTitle)
+                val title = sanitizeTitle(rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim())
                 AudioCatalogItem(
                     path = "Audio/$filename",
-                    title = rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim(),
+                    title = title,
                     section = "Audios de vocabulario",
                     isAlternative = isAlternative
                 )
@@ -99,7 +100,7 @@ class AudioPlayer(private val context: Context) {
                     .map { filename ->
                         val rawTitle = filename.substringBeforeLast('.')
                         val isAlternative = Regex("\\s*\\(\\d+\\)$").containsMatchIn(rawTitle)
-                        val title = rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim()
+                        val title = sanitizeTitle(rawTitle.replace(Regex("\\s*\\(\\d+\\)$"), "").trim())
                         AudioCatalogItem(
                             path = "$directory/$filename",
                             title = title,

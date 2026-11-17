@@ -28,6 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import mx.zentemi.yuhmu.audio.AudioCatalogItem
+import mx.zentemi.yuhmu.data.avatarCharacter
 import mx.zentemi.yuhmu.data.dailyDone
 import mx.zentemi.yuhmu.model.Word
 import mx.zentemi.yuhmu.ui.challenge.ChallengeScreen
@@ -57,7 +58,7 @@ fun GamesScreen(
             verticalArrangement = Arrangement.spacedBy(18.dp)
         ) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Mascot(size = 70.dp, mood = Mood.CHEER)
+                Mascot(size = 70.dp, mood = Mood.CHEER, character = progress.avatarCharacter())
                 Column {
                     Text("¡Hora de jugar!", fontSize = 26.sp, fontWeight = FontWeight.ExtraBold, color = Brand.purple)
                     Text("Practica, descubre y gana puntos", fontSize = 14.sp, color = Brand.gray)

@@ -209,16 +209,39 @@ fun RegisterScreen(auth: AuthViewModel, onBack: () -> Unit) {
         password.isNotEmpty() && password == confirm
 
     AuthScaffold("Crea tu perfil", onBack) {
-        Text("Elige tu avatar", fontWeight = FontWeight.Bold, color = Brand.ink)
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            AVATARS.forEach { a ->
-                Box(
-                    Modifier.size(38.dp).clip(CircleShape)
-                        .background(if (a == avatar) Brand.lavender else Color.White)
-                        .border(2.dp, if (a == avatar) Brand.purpleMid else Brand.grayLight, CircleShape)
-                        .clickable { avatar = a },
-                    contentAlignment = Alignment.Center
-                ) { Text(a, fontSize = 20.sp) }
+        Text("Elige tu personaje", fontWeight = FontWeight.Bold, color = Brand.ink)
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+            mx.zentemi.yuhmu.model.AppCharacter.entries.forEach { ch ->
+                val isSelected = ch.id == avatar
+                Column(
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(18.dp))
+                        .background(if (isSelected) Brand.lavender else Color.White)
+                        .border(2.dp, if (isSelected) Brand.purpleMid else Brand.grayLight, RoundedCornerShape(18.dp))
+                        .clickable { avatar = ch.id }
+                        .padding(8.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(50.dp)
+                            .clip(CircleShape)
+                            .background(Color.White)
+                            .border(1.5.dp, if (isSelected) Brand.purpleMid else Brand.grayEdge, CircleShape),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        androidx.compose.foundation.Image(
+                            painter = androidx.compose.ui.res.painterResource(id = ch.drawableRes),
+                            contentDescription = ch.characterName,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .clip(CircleShape)
+                                .background(Color.White)
+                        )
+                    }
+                    Spacer(Modifier.height(4.dp))
+                    Text(ch.characterName.split(" ").first(), fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Brand.purple)
+                }
             }
         }
         YuhmuTextField(displayName, { displayName = it }, "¿Cómo te llamamos?", leading = Icons.Filled.Face, maxLength = 20)
