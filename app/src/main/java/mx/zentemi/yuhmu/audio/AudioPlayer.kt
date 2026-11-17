@@ -10,6 +10,7 @@ import java.util.Locale
 data class AudioCatalogItem(
     val path: String,
     val title: String,
+    val yuhmu: String? = null,
     val section: String,
     val isAlternative: Boolean,
     val note: String? = null
@@ -19,6 +20,7 @@ data class AudioCatalogItem(
 class AudioPlayer(private val context: Context) {
 
     private val audioMap = mutableMapOf<String, String>()
+    private val pathToWordMap = mutableMapOf<String, Word>()
     private var player: MediaPlayer? = null
 
     // Los números se relacionan por su significado en español, nunca por el sufijo del ID.
@@ -46,12 +48,125 @@ class AudioPlayer(private val context: Context) {
         "clima" to "Audio/Elementos ,astros,clima"
     )
 
+    private val titleOverrides = mapOf(
+        "1" to "Uno (1)",
+        "2" to "Dos (2)",
+        "3" to "Tres (3)",
+        "4" to "Cuatro (4)",
+        "5" to "Cinco (5)",
+        "6" to "Seis (6)",
+        "7" to "Siete (7)",
+        "8" to "Ocho (8)",
+        "9" to "Nueve (9)",
+        "10" to "Diez (10)",
+        "100" to "Cien (100)",
+        "Señidor" to "Ceñidor",
+        "HIerbabuena" to "Hierbabuena",
+        "Cozcomate" to "Coscomate",
+        "raton" to "Ratón",
+        "vibora" to "Víbora",
+        "maiz" to "Maíz",
+        "pantalon" to "Pantalón",
+        "Esta simpatico" to "Está simpático",
+        "el sabe mas" to "Él sabe más",
+        "eres flojo" to "Eres flojo",
+        "esta caro" to "Está caro",
+        "no esta caro" to "No está caro",
+        "él no sabe mucho" to "Él no sabe mucho",
+        "Ahí estan dos manzanas" to "Ahí están dos manzanas",
+        "Ayudame" to "Ayúdame",
+        "Ese muchacho esta grande" to "Ese muchacho está grande",
+        "Ese muchacho no  me gusta" to "Ese muchacho no me gusta",
+        "La comida esta sabrosa" to "La comida está sabrosa",
+        "La salsa esta picosa" to "La salsa está picosa",
+        "Me voy a hacer un agua" to "Me voy a hacer un agua",
+        "Me voy a tomar esta medicina" to "Me voy a tomar esta medicina",
+        "Se murió un pobre señor" to "Se murió un pobre señor",
+        "Si dios quiere" to "Si Dios quiere",
+        "Vamonos, ya es tarde" to "Vámonos, ya es tarde",
+        "Vente ,vamos a misa" to "Vente, vamos a misa",
+        "Vente vamos a comprar pan" to "Vente, vamos a comprar pan",
+        "Vente, vamos a algun lado" to "Vente, vamos a algún lado",
+        "Voy a Pixcar" to "Voy a pizcar",
+        "Ya esta amaneciendo" to "Ya está amaneciendo",
+        "Ya me canse" to "Ya me cansé",
+        "aqui esta el dinero" to "Aquí está el dinero",
+        "aqui esta" to "Aquí está",
+        "ayudame porfavor" to "Ayúdame por favor",
+        "buenos dias niño" to "Buenos días niño",
+        "cual es tu casa" to "Cuál es tu casa",
+        "cuales son tus animales" to "Cuáles son tus animales",
+        "cuales son tus zapatos" to "Cuáles son tus zapatos",
+        "cuanto es" to "Cuánto es",
+        "cuantos años tienes" to "Cuántos años tienes",
+        "estoy bien" to "Estoy bien",
+        "estoy contento" to "Estoy contento",
+        "estoy enojado" to "Estoy enojado",
+        "estoy preocupado" to "Estoy preocupado",
+        "estoy triste" to "Estoy triste",
+        "gracias" to "Gracias",
+        "me duele mi cabeza" to "Me duele mi cabeza",
+        "me duelen mis pies" to "Me duelen mis pies",
+        "me gusta" to "Me gusta",
+        "no estoy bien" to "No estoy bien",
+        "no me gusta" to "No me gusta",
+        "no quiero ir" to "No quiero ir",
+        "no quiero" to "No quiero",
+        "no tengo dinero" to "No tengo dinero",
+        "por que estas triste" to "Por qué estás triste",
+        "que hora es" to "Qué hora es",
+        "quien es tu mamá" to "Quién es tu mamá",
+        "quien es tu papá" to "Quién es tu papá",
+        "quiero comprar esto" to "Quiero comprar esto",
+        "quiero dos kg de tortilla" to "Quiero dos kg de tortilla",
+        "quiero ese" to "Quiero ese",
+        "quiero que alguien me ayude" to "Quiero que alguien me ayude",
+        "quiero un kilo" to "Quiero un kilo",
+        "quiero" to "Quiero",
+        "se siente calor" to "Se siente calor",
+        "si quiero ir" to "Sí quiero ir",
+        "son las 5" to "Son las 5",
+        "te pareces a mi" to "Te pareces a mí",
+        "te pareces a tu papá" to "Te pareces a tu papá",
+        "te sientes feliz" to "Te sientes feliz",
+        "tengo miedo" to "Tengo miedo",
+        "tengo sueño" to "Tengo sueño",
+        "tienes cambio" to "Tienes cambio",
+        "tienes canas" to "Tienes canas",
+        "tienes jitomate" to "Tienes jitomate",
+        "vamos a la matuma" to "Vamos a la Matuma",
+        "vamos hacer tortillas" to "Vamos a hacer tortillas",
+        "ven y ayudame" to "Ven y ayúdame",
+        "vez a ver el agua" to "Ve a ver el agua",
+        "vivo en ixtenco" to "Vivo en Ixtenco",
+        "voy a comprar" to "Voy a comprar",
+        "voy a cortar leña" to "Voy a cortar leña",
+        "voy a dormir" to "Voy a dormir",
+        "voy a mi casa" to "Voy a mi casa",
+        "voy abrir la puerta" to "Voy a abrir la puerta",
+        "voy al campo" to "Voy al campo",
+        "ya acabe de comer" to "Ya acabé de comer",
+        "ya estoy cansado" to "Ya estoy cansado",
+        "ya llegue" to "Ya llegué",
+        "ya termine" to "Ya terminé",
+        "yo trabajo mucho, no él" to "Yo trabajo mucho, no él",
+        "él ahi esta" to "Él ahí está",
+        "¿A dónde vas_" to "¿A dónde vas?",
+        "¿Cuantos años tienes_" to "¿Cuántos años tienes?",
+        "¿De dónde vienes_" to "¿De dónde vienes?",
+        "¿Dónde estas_" to "¿Dónde estás?",
+        "¿cuánto cuesta_" to "¿Cuánto cuesta?",
+        "¿cómo estas_" to "¿Cómo estás?",
+        "¿cómo te llamas_" to "¿Cómo te llamas?"
+    )
+
     /**
      * Registra únicamente relaciones inequívocas. Las traducciones repetidas que tienen
      * más de una forma Yhụmụ se dejan fuera para no reproducir una voz posiblemente distinta.
      */
     fun registerWordMappings(words: List<Word>) {
         audioMap.clear()
+        pathToWordMap.clear()
         val translations = words.groupBy { it.categoryId to normalize(it.spanish) }
 
         words.forEach { word ->
@@ -61,6 +176,9 @@ class AudioPlayer(private val context: Context) {
 
             val path = findWordAudio(word) ?: return@forEach
             audioMap[word.id] = path
+            if (!pathToWordMap.containsKey(path)) {
+                pathToWordMap[path] = word
+            }
         }
     }
 
@@ -81,12 +199,16 @@ class AudioPlayer(private val context: Context) {
         val rootAudio = entries.asSequence()
             .filter { it.endsWith(".m4a", ignoreCase = true) }
             .map { filename ->
+                val path = "Audio/$filename"
                 val rawTitle = filename.substringBeforeLast('.')
                 val isAlternative = COPY_SUFFIX_REGEX.containsMatchIn(rawTitle)
-                val title = sanitizeTitle(rawTitle.replace(COPY_SUFFIX_REGEX, "").trim())
+                val cleanRaw = rawTitle.replace(COPY_SUFFIX_REGEX, "").trim()
+                val word = pathToWordMap[path]
+                val title = word?.spanish ?: sanitizeTitle(cleanRaw)
                 AudioCatalogItem(
-                    path = "Audio/$filename",
+                    path = path,
                     title = title,
+                    yuhmu = word?.yuhmu,
                     section = "Audios de vocabulario",
                     isAlternative = isAlternative
                 )
@@ -98,15 +220,30 @@ class AudioPlayer(private val context: Context) {
                 context.assets.list(directory).orEmpty().asSequence()
                     .filter { it.endsWith(".m4a", ignoreCase = true) }
                     .map { filename ->
+                        val path = "$directory/$filename"
                         val rawTitle = filename.substringBeforeLast('.')
                         val isAlternative = COPY_SUFFIX_REGEX.containsMatchIn(rawTitle)
-                        val title = sanitizeTitle(rawTitle.replace(COPY_SUFFIX_REGEX, "").trim())
+                        val cleanRaw = rawTitle.replace(COPY_SUFFIX_REGEX, "").trim()
+                        val word = pathToWordMap[path]
+                        val title = when {
+                            folder == "numeros" -> {
+                                val baseSpanish = word?.spanish ?: sanitizeTitle(cleanRaw)
+                                if (baseSpanish.matches(Regex("^.+ \\(\\d+\\)$"))) {
+                                    baseSpanish
+                                } else {
+                                    "$baseSpanish ($cleanRaw)"
+                                }
+                            }
+                            word != null -> word.spanish
+                            else -> sanitizeTitle(cleanRaw)
+                        }
                         AudioCatalogItem(
-                            path = "$directory/$filename",
+                            path = path,
                             title = title,
+                            yuhmu = word?.yuhmu,
                             section = folderTitle(folder),
                             isAlternative = isAlternative,
-                            note = if (folder == "numeros" && rawTitle == "100") {
+                            note = if (folder == "numeros" && cleanRaw == "100") {
                                 "Grabación de «cien» sin variante confirmada en el material."
                             } else null
                         )
@@ -120,10 +257,17 @@ class AudioPlayer(private val context: Context) {
     }
 
     private fun sanitizeTitle(raw: String): String {
-        val cleaned = raw.replace('_', ' ')
+        titleOverrides[raw]?.let { return it }
+
+        var cleaned = raw.replace('_', ' ')
             .replace(SPACES_AROUND_COMMA_REGEX, ", ")
             .replace(MULTIPLE_SPACES_REGEX, " ")
             .trim()
+
+        if (cleaned.startsWith("¿") && cleaned.endsWith("_")) {
+            cleaned = cleaned.dropLast(1) + "?"
+        }
+
         return if (cleaned.isNotEmpty()) {
             cleaned.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() }
         } else {

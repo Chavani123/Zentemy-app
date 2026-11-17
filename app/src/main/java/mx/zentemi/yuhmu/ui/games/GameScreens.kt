@@ -172,7 +172,9 @@ fun AudioLibraryScreen(vm: YuhmuViewModel, onBack: () -> Unit) {
     val filtered = remember(recordings, query) {
         if (query.isBlank()) recordings
         else recordings.filter {
-            it.title.contains(query, ignoreCase = true) || it.section.contains(query, ignoreCase = true)
+            it.title.contains(query, ignoreCase = true) ||
+            (!it.yuhmu.isNullOrBlank() && it.yuhmu.contains(query, ignoreCase = true)) ||
+            it.section.contains(query, ignoreCase = true)
         }
     }
 
@@ -235,6 +237,9 @@ private fun AudioRecordingRow(recording: AudioCatalogItem, vm: YuhmuViewModel) {
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(recording.title, fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Brand.ink)
+            if (!recording.yuhmu.isNullOrBlank()) {
+                Text(recording.yuhmu, fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Brand.purple)
+            }
             if (recording.isAlternative) Text("Grabación alternativa", fontSize = 11.sp, color = Brand.gray)
             recording.note?.let { Text(it, fontSize = 11.sp, lineHeight = 15.sp, color = Brand.gray) }
         }
